@@ -18,26 +18,31 @@ History: Written by Tim Mattson, 11/1999.
 #include <sys/time.h>
 
 static long num_steps = 100000000;
-static long num_blocks = 50;
 static long thread_per_block = 1;
-static long steps_per_thread = 1;
+static long steps_per_thread = 64;
 double step;
 
 __global__ void compute_pi(float* pi, long num_steps){
       int i;
-      double x, sum = 0.0;
-      int blocki = threadIdx.x + blockIdx.x * blockDim.x;
+      double x;
+      __shared__ float sum;
+
+      if(threadIdx.x == 0){
+        sum = 0;
+      }
+      int threadi = threadIdx.x + blockIdx.x * blockDim.x;
       int stride = blockDim.x * gridDim.x;
       double step = 1.0/(double) num_steps;
 
-      for (i=blocki;i< num_steps; i+= stride){
+      for (i=threadi;i< num_steps; i+= stride){
         x = (i-0.5)*step;
-        sum = sum + 4.0/(1.0+x*x);
+        atomicAdd(&sum, 4.0/(1.0+x*x));
       }
+      __syncthreads();
 
-      atomicAdd(pi, sum);
-
-
+      if(threadIdx.x == 0){
+        atomicAdd(pi, sum);
+      }
 }
 
 int main (int argc, char** argv)
@@ -49,17 +54,13 @@ int main (int argc, char** argv)
             num_steps = atol( argv[ ++i ] );
             printf( "  User num_steps is %ld\n", num_steps );
         }
-        if ( ( strcmp( argv[ i ], "-B" ) == 0 )) {
-            num_blocks = atol( argv[ ++i ] );
-            printf( "  User num blocks is %ld\n", num_blocks );
-        }
         if ( ( strcmp( argv[ i ], "-tpb" ) == 0 )) {
             thread_per_block = atol( argv[ ++i ] );
             printf( "  User thread per block is %ld\n", thread_per_block );
         } 
         if ( ( strcmp( argv[ i ], "-spt" ) == 0 )) {
             steps_per_thread = atol( argv[ ++i ] );
-            printf( "  User thread per block is %ld\n", steps_per_thread );
+            printf( "  User steps per thread is %ld\n", steps_per_thread );
         } 
         else if ( ( strcmp( argv[ i ], "-h" ) == 0 ) || ( strcmp( argv[ i ], "-help" ) == 0 ) ) {
             printf( "  Pi Options:\n" );
@@ -78,7 +79,7 @@ int main (int argc, char** argv)
 	  
     step = 1.0/(double) num_steps;
 
-
+    int num_blocks = num_steps/(thread_per_block*steps_per_thread) + 1;
     cudaEvent_t start, stop;
     cudaEventCreate(&start);
     cudaEventCreate(&stop);

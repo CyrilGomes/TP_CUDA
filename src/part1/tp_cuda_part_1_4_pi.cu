@@ -22,21 +22,45 @@ static long thread_per_block = 1;
 static long steps_per_thread = 64;
 double step;
 
-__global__ void compute_pi(float* pi, long num_steps){
+
+__global__ void reduction(float* pi, long num_steps ){
       int i;
-      double x, sum = 0.0;
+      double x;
+      extern __shared__ float XY[];
+
+      XY[threadIdx.x]=0;
       int threadi = threadIdx.x + blockIdx.x * blockDim.x;
       int stride = blockDim.x * gridDim.x;
       double step = 1.0/(double) num_steps;
+      int BLOCK_SIZE = blockDim.x;
+
 
       for (i=threadi;i< num_steps; i+= stride){
         x = (i-0.5)*step;
-        sum = sum + 4.0/(1.0+x*x);
+        XY[threadIdx.x]+=4.0/(1.0+x*x);
       }
 
-      atomicAdd(pi, sum);
+      //printf("inter %f\n",XY[threadIdx.x]);
+      __syncthreads();
 
 
+      for (unsigned int stride = 1; stride < BLOCK_SIZE; stride*=2){
+          int index = 2*stride*threadIdx.x;
+
+          if(index < BLOCK_SIZE){
+            XY[index] += XY[index+stride];
+          }
+          __syncthreads();
+      }      
+
+      if(threadIdx.x == 0){
+        int max = -1;
+        for(int i = 0; i<2*BLOCK_SIZE; i++){
+            if(XY[i] > max)
+              max = XY[i];
+        }
+        atomicAdd(pi, XY[0]);
+      }
 }
 
 int main (int argc, char** argv)
@@ -74,12 +98,13 @@ int main (int argc, char** argv)
     step = 1.0/(double) num_steps;
 
     int num_blocks = num_steps/(thread_per_block*steps_per_thread) + 1;
+
     cudaEvent_t start, stop;
     cudaEventCreate(&start);
     cudaEventCreate(&stop);
     cudaEventRecord(start, 0);
-    printf("%d", num_blocks);
-    compute_pi<<<num_blocks, thread_per_block>>>(pi_d, num_steps);
+    printf("%d\n", num_blocks);
+    reduction<<<num_blocks, thread_per_block, thread_per_block*sizeof(float)>>>(pi_d, num_steps);
     cudaEventRecord(stop, 0);
     cudaEventSynchronize(stop);
 
@@ -90,8 +115,11 @@ int main (int argc, char** argv)
 
 	  pi_h = step * pi_h;
 
-    
     printf("\n pi with %ld steps is %lf in %lf s\n",num_steps,pi_h,elapsedTime/1000.0);
 
     cudaFree(pi_d);
 }
+
+
+
+
