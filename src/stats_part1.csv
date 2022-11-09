@@ -1,0 +1,1801 @@
+version,nthread_per_block,nstep_per_thread,num_steps,runtime
+1_1 basic,1,1,100,1.3312e-05
+1_3 shared memory and atomic,1,1,100,1.2288e-05
+1_4 reduction multi stage,1,1,100,1.3312e-05
+1_1 basic,1,1,100,1.3312e-05
+1_3 shared memory and atomic,1,1,100,1.2288e-05
+1_4 reduction multi stage,1,1,100,1.7408e-05
+1_1 basic,1,1,100,1.3312e-05
+1_3 shared memory and atomic,1,1,100,1.4336e-05
+1_4 reduction multi stage,1,1,100,1.4336e-05
+1_1 basic,1,1,100,1.3312e-05
+1_3 shared memory and atomic,1,1,100,1.4304e-05
+1_4 reduction multi stage,1,1,100,1.3312e-05
+1_1 basic,1,1,100,1.3376e-05
+1_3 shared memory and atomic,1,1,100,1.6384e-05
+1_4 reduction multi stage,1,1,100,1.2288e-05
+1_1 basic,1,1,100,1.4336e-05
+1_3 shared memory and atomic,1,1,100,1.3312e-05
+1_4 reduction multi stage,1,1,100,1.3312e-05
+1_1 basic,1,1,100,1.4336e-05
+1_3 shared memory and atomic,1,1,100,1.2288e-05
+1_4 reduction multi stage,1,1,100,2.6624e-05
+1_1 basic,1,1,100,1.2288e-05
+1_3 shared memory and atomic,1,1,100,1.6384e-05
+1_4 reduction multi stage,1,1,100,1.4336e-05
+1_1 basic,1,1,100,1.2288e-05
+1_3 shared memory and atomic,1,1,100,2.4576001e-05
+1_4 reduction multi stage,1,1,100,1.536e-05
+1_1 basic,1,1,100,1.4336e-05
+1_3 shared memory and atomic,1,1,100,1.3312e-05
+1_4 reduction multi stage,1,1,100,1.4336e-05
+1_1 basic,1,64,100,4.3008e-05
+1_3 shared memory and atomic,1,64,100,4.9152002e-05
+1_4 reduction multi stage,1,64,100,4.7104001e-05
+1_1 basic,1,64,100,4.7104001e-05
+1_3 shared memory and atomic,1,64,100,5.0175998e-05
+1_4 reduction multi stage,1,64,100,4.7104001e-05
+1_1 basic,1,64,100,4.4032e-05
+1_3 shared memory and atomic,1,64,100,4.7104001e-05
+1_4 reduction multi stage,1,64,100,5.0175998e-05
+1_1 basic,1,64,100,4.4032e-05
+1_3 shared memory and atomic,1,64,100,4.8128001e-05
+1_4 reduction multi stage,1,64,100,4.7104001e-05
+1_1 basic,1,64,100,4.4032e-05
+1_3 shared memory and atomic,1,64,100,4.8128001e-05
+1_4 reduction multi stage,1,64,100,4.7104001e-05
+1_1 basic,1,64,100,4.4032e-05
+1_3 shared memory and atomic,1,64,100,5.0175998e-05
+1_4 reduction multi stage,1,64,100,4.6080001e-05
+1_1 basic,1,64,100,4.3008e-05
+1_3 shared memory and atomic,1,64,100,4.8128001e-05
+1_4 reduction multi stage,1,64,100,4.7104001e-05
+1_1 basic,1,64,100,4.4032e-05
+1_3 shared memory and atomic,1,64,100,4.6080001e-05
+1_4 reduction multi stage,1,64,100,4.8128001e-05
+1_1 basic,1,64,100,4.3008e-05
+1_3 shared memory and atomic,1,64,100,5.0175998e-05
+1_4 reduction multi stage,1,64,100,5.3247999e-05
+1_1 basic,1,64,100,4.4032e-05
+1_3 shared memory and atomic,1,64,100,4.8128001e-05
+1_4 reduction multi stage,1,64,100,4.8128001e-05
+1_1 basic,1,256,100,7.7823997e-05
+1_3 shared memory and atomic,1,256,100,9.0112001e-05
+1_4 reduction multi stage,1,256,100,8.1919998e-05
+1_1 basic,1,256,100,7.7823997e-05
+1_3 shared memory and atomic,1,256,100,8.704e-05
+1_4 reduction multi stage,1,256,100,8.9088e-05
+1_1 basic,1,256,100,7.6800004e-05
+1_3 shared memory and atomic,1,256,100,9.0112001e-05
+1_4 reduction multi stage,1,256,100,8.2943998e-05
+1_1 basic,1,256,100,7.9871997e-05
+1_3 shared memory and atomic,1,256,100,9.0112001e-05
+1_4 reduction multi stage,1,256,100,8.2943998e-05
+1_1 basic,1,256,100,7.5776003e-05
+1_3 shared memory and atomic,1,256,100,8.704e-05
+1_4 reduction multi stage,1,256,100,8.4991999e-05
+1_1 basic,1,256,100,7.7823997e-05
+1_3 shared memory and atomic,1,256,100,8.8064e-05
+1_4 reduction multi stage,1,256,100,8.2943998e-05
+1_1 basic,1,256,100,7.5776003e-05
+1_3 shared memory and atomic,1,256,100,8.704e-05
+1_4 reduction multi stage,1,256,100,8.1919998e-05
+1_1 basic,1,256,100,7.6800004e-05
+1_3 shared memory and atomic,1,256,100,8.8064e-05
+1_4 reduction multi stage,1,256,100,8.1919998e-05
+1_1 basic,1,256,100,8.9088e-05
+1_3 shared memory and atomic,1,256,100,8.704e-05
+1_4 reduction multi stage,1,256,100,8.0895998e-05
+1_1 basic,1,256,100,7.6800004e-05
+1_3 shared memory and atomic,1,256,100,8.6015999e-05
+1_4 reduction multi stage,1,256,100,8.2943998e-05
+1_1 basic,1,1024,100,7.6800004e-05
+1_3 shared memory and atomic,1,1024,100,8.9088e-05
+1_4 reduction multi stage,1,1024,100,8.2943998e-05
+1_1 basic,1,1024,100,7.5776003e-05
+1_3 shared memory and atomic,1,1024,100,9.2160001e-05
+1_4 reduction multi stage,1,1024,100,8.2943998e-05
+1_1 basic,1,1024,100,8.3967999e-05
+1_3 shared memory and atomic,1,1024,100,8.704e-05
+1_4 reduction multi stage,1,1024,100,8.4991999e-05
+1_1 basic,1,1024,100,7.5776003e-05
+1_3 shared memory and atomic,1,1024,100,8.704e-05
+1_4 reduction multi stage,1,1024,100,8.1919998e-05
+1_1 basic,1,1024,100,7.5776003e-05
+1_3 shared memory and atomic,1,1024,100,8.8064e-05
+1_4 reduction multi stage,1,1024,100,8.3967999e-05
+1_1 basic,1,1024,100,7.5776003e-05
+1_3 shared memory and atomic,1,1024,100,8.704e-05
+1_4 reduction multi stage,1,1024,100,8.2943998e-05
+1_1 basic,1,1024,100,7.5776003e-05
+1_3 shared memory and atomic,1,1024,100,8.6015999e-05
+1_4 reduction multi stage,1,1024,100,8.1919998e-05
+1_1 basic,1,1024,100,8.0895998e-05
+1_3 shared memory and atomic,1,1024,100,8.704e-05
+1_4 reduction multi stage,1,1024,100,8.0895998e-05
+1_1 basic,1,1024,100,7.5776003e-05
+1_3 shared memory and atomic,1,1024,100,8.704e-05
+1_4 reduction multi stage,1,1024,100,8.2943998e-05
+1_1 basic,1,1024,100,7.4752003e-05
+1_3 shared memory and atomic,1,1024,100,8.8064e-05
+1_4 reduction multi stage,1,1024,100,9.5232002e-05
+1_1 basic,32,1,100,2.6624e-05
+1_3 shared memory and atomic,32,1,100,1.536e-05
+1_4 reduction multi stage,32,1,100,1.3312e-05
+1_1 basic,32,1,100,2.6624e-05
+1_3 shared memory and atomic,32,1,100,1.8432001e-05
+1_4 reduction multi stage,32,1,100,1.2288e-05
+1_1 basic,32,1,100,1.536e-05
+1_3 shared memory and atomic,32,1,100,1.6384e-05
+1_4 reduction multi stage,32,1,100,1.3312e-05
+1_1 basic,32,1,100,1.6384e-05
+1_3 shared memory and atomic,32,1,100,1.7408e-05
+1_4 reduction multi stage,32,1,100,1.2288e-05
+1_1 basic,32,1,100,1.4336e-05
+1_3 shared memory and atomic,32,1,100,1.6384e-05
+1_4 reduction multi stage,32,1,100,1.7408e-05
+1_1 basic,32,1,100,1.2288e-05
+1_3 shared memory and atomic,32,1,100,1.6384e-05
+1_4 reduction multi stage,32,1,100,1.4336e-05
+1_1 basic,32,1,100,1.1264e-05
+1_3 shared memory and atomic,32,1,100,1.6384e-05
+1_4 reduction multi stage,32,1,100,1.2288e-05
+1_1 basic,32,1,100,1.2288e-05
+1_3 shared memory and atomic,32,1,100,1.8432001e-05
+1_4 reduction multi stage,32,1,100,1.2288e-05
+1_1 basic,32,1,100,1.2288e-05
+1_3 shared memory and atomic,32,1,100,1.8432001e-05
+1_4 reduction multi stage,32,1,100,1.8432001e-05
+1_1 basic,32,1,100,1.2288e-05
+1_3 shared memory and atomic,32,1,100,1.6384e-05
+1_4 reduction multi stage,32,1,100,1.4336e-05
+1_1 basic,32,64,100,1.536e-05
+1_3 shared memory and atomic,32,64,100,2.7648e-05
+1_4 reduction multi stage,32,64,100,1.5328e-05
+1_1 basic,32,64,100,1.536e-05
+1_3 shared memory and atomic,32,64,100,2.8672e-05
+1_4 reduction multi stage,32,64,100,1.536e-05
+1_1 basic,32,64,100,1.536e-05
+1_3 shared memory and atomic,32,64,100,3.5840001e-05
+1_4 reduction multi stage,32,64,100,1.536e-05
+1_1 basic,32,64,100,1.3312e-05
+1_3 shared memory and atomic,32,64,100,2.7648e-05
+1_4 reduction multi stage,32,64,100,1.6384e-05
+1_1 basic,32,64,100,1.536e-05
+1_3 shared memory and atomic,32,64,100,2.9696001e-05
+1_4 reduction multi stage,32,64,100,1.6384e-05
+1_1 basic,32,64,100,1.4336e-05
+1_3 shared memory and atomic,32,64,100,2.7648e-05
+1_4 reduction multi stage,32,64,100,1.6384e-05
+1_1 basic,32,64,100,1.8432001e-05
+1_3 shared memory and atomic,32,64,100,2.7648e-05
+1_4 reduction multi stage,32,64,100,1.4336e-05
+1_1 basic,32,64,100,1.3312e-05
+1_3 shared memory and atomic,32,64,100,2.7648e-05
+1_4 reduction multi stage,32,64,100,1.536e-05
+1_1 basic,32,64,100,1.536e-05
+1_3 shared memory and atomic,32,64,100,2.6624e-05
+1_4 reduction multi stage,32,64,100,1.4336e-05
+1_1 basic,32,64,100,1.7408e-05
+1_3 shared memory and atomic,32,64,100,2.6656e-05
+1_4 reduction multi stage,32,64,100,1.4336e-05
+1_1 basic,32,256,100,1.3312e-05
+1_3 shared memory and atomic,32,256,100,2.6624e-05
+1_4 reduction multi stage,32,256,100,2.1504e-05
+1_1 basic,32,256,100,1.536e-05
+1_3 shared memory and atomic,32,256,100,2.7648e-05
+1_4 reduction multi stage,32,256,100,1.536e-05
+1_1 basic,32,256,100,1.7408e-05
+1_3 shared memory and atomic,32,256,100,2.7648e-05
+1_4 reduction multi stage,32,256,100,1.4336e-05
+1_1 basic,32,256,100,1.4336e-05
+1_3 shared memory and atomic,32,256,100,2.7648e-05
+1_4 reduction multi stage,32,256,100,1.536e-05
+1_1 basic,32,256,100,1.3312e-05
+1_3 shared memory and atomic,32,256,100,2.7648e-05
+1_4 reduction multi stage,32,256,100,1.536e-05
+1_1 basic,32,256,100,1.3344e-05
+1_3 shared memory and atomic,32,256,100,2.7648e-05
+1_4 reduction multi stage,32,256,100,1.536e-05
+1_1 basic,32,256,100,1.4336e-05
+1_3 shared memory and atomic,32,256,100,3.0719999e-05
+1_4 reduction multi stage,32,256,100,1.6384e-05
+1_1 basic,32,256,100,1.3312e-05
+1_3 shared memory and atomic,32,256,100,2.7648e-05
+1_4 reduction multi stage,32,256,100,1.536e-05
+1_1 basic,32,256,100,1.536e-05
+1_3 shared memory and atomic,32,256,100,2.7648e-05
+1_4 reduction multi stage,32,256,100,1.6384e-05
+1_1 basic,32,256,100,1.3312e-05
+1_3 shared memory and atomic,32,256,100,2.5599999e-05
+1_4 reduction multi stage,32,256,100,1.7408e-05
+1_1 basic,32,1024,100,1.4336e-05
+1_3 shared memory and atomic,32,1024,100,2.7648e-05
+1_4 reduction multi stage,32,1024,100,1.6384e-05
+1_1 basic,32,1024,100,1.4336e-05
+1_3 shared memory and atomic,32,1024,100,2.8672e-05
+1_4 reduction multi stage,32,1024,100,1.7408e-05
+1_1 basic,32,1024,100,1.536e-05
+1_3 shared memory and atomic,32,1024,100,2.8672e-05
+1_4 reduction multi stage,32,1024,100,1.6384e-05
+1_1 basic,32,1024,100,1.536e-05
+1_3 shared memory and atomic,32,1024,100,2.8672e-05
+1_4 reduction multi stage,32,1024,100,1.6384e-05
+1_1 basic,32,1024,100,1.6384e-05
+1_3 shared memory and atomic,32,1024,100,2.9696001e-05
+1_4 reduction multi stage,32,1024,100,1.536e-05
+1_1 basic,32,1024,100,1.536e-05
+1_3 shared memory and atomic,32,1024,100,2.7648e-05
+1_4 reduction multi stage,32,1024,100,1.536e-05
+1_1 basic,32,1024,100,1.5328e-05
+1_3 shared memory and atomic,32,1024,100,2.8672e-05
+1_4 reduction multi stage,32,1024,100,1.536e-05
+1_1 basic,32,1024,100,1.536e-05
+1_3 shared memory and atomic,32,1024,100,2.864e-05
+1_4 reduction multi stage,32,1024,100,1.536e-05
+1_1 basic,32,1024,100,1.4336e-05
+1_3 shared memory and atomic,32,1024,100,2.6624e-05
+1_4 reduction multi stage,32,1024,100,1.6384e-05
+1_1 basic,32,1024,100,1.3312e-05
+1_3 shared memory and atomic,32,1024,100,2.9696001e-05
+1_4 reduction multi stage,32,1024,100,1.4336e-05
+1_1 basic,64,1,100,1.2288e-05
+1_3 shared memory and atomic,64,1,100,2.0479999e-05
+1_4 reduction multi stage,64,1,100,1.3312e-05
+1_1 basic,64,1,100,1.1264e-05
+1_3 shared memory and atomic,64,1,100,2.0479999e-05
+1_4 reduction multi stage,64,1,100,1.2288e-05
+1_1 basic,64,1,100,1.2288e-05
+1_3 shared memory and atomic,64,1,100,2.1504e-05
+1_4 reduction multi stage,64,1,100,3.1744e-05
+1_1 basic,64,1,100,1.3312e-05
+1_3 shared memory and atomic,64,1,100,1.8464001e-05
+1_4 reduction multi stage,64,1,100,1.4336e-05
+1_1 basic,64,1,100,1.328e-05
+1_3 shared memory and atomic,64,1,100,2.0479999e-05
+1_4 reduction multi stage,64,1,100,1.4336e-05
+1_1 basic,64,1,100,1.2288e-05
+1_3 shared memory and atomic,64,1,100,2.0479999e-05
+1_4 reduction multi stage,64,1,100,1.3312e-05
+1_1 basic,64,1,100,1.2288e-05
+1_3 shared memory and atomic,64,1,100,2.1472e-05
+1_4 reduction multi stage,64,1,100,1.3312e-05
+1_1 basic,64,1,100,1.2288e-05
+1_3 shared memory and atomic,64,1,100,2.0479999e-05
+1_4 reduction multi stage,64,1,100,1.4336e-05
+1_1 basic,64,1,100,1.2288e-05
+1_3 shared memory and atomic,64,1,100,2.3552001e-05
+1_4 reduction multi stage,64,1,100,2.1504e-05
+1_1 basic,64,1,100,1.2288e-05
+1_3 shared memory and atomic,64,1,100,1.9455999e-05
+1_4 reduction multi stage,64,1,100,1.6384e-05
+1_1 basic,64,64,100,1.2288e-05
+1_3 shared memory and atomic,64,64,100,2.3552001e-05
+1_4 reduction multi stage,64,64,100,1.4368e-05
+1_1 basic,64,64,100,1.4336e-05
+1_3 shared memory and atomic,64,64,100,2.3552001e-05
+1_4 reduction multi stage,64,64,100,1.3312e-05
+1_1 basic,64,64,100,1.3312e-05
+1_3 shared memory and atomic,64,64,100,2.2528e-05
+1_4 reduction multi stage,64,64,100,1.4336e-05
+1_1 basic,64,64,100,1.2288e-05
+1_3 shared memory and atomic,64,64,100,2.2528e-05
+1_4 reduction multi stage,64,64,100,1.4336e-05
+1_1 basic,64,64,100,1.3312e-05
+1_3 shared memory and atomic,64,64,100,3.4816001e-05
+1_4 reduction multi stage,64,64,100,1.536e-05
+1_1 basic,64,64,100,1.2288e-05
+1_3 shared memory and atomic,64,64,100,2.2528e-05
+1_4 reduction multi stage,64,64,100,1.7408e-05
+1_1 basic,64,64,100,1.3312e-05
+1_3 shared memory and atomic,64,64,100,2.4544001e-05
+1_4 reduction multi stage,64,64,100,1.536e-05
+1_1 basic,64,64,100,1.2288e-05
+1_3 shared memory and atomic,64,64,100,2.9696001e-05
+1_4 reduction multi stage,64,64,100,3.5840001e-05
+1_1 basic,64,64,100,1.3312e-05
+1_3 shared memory and atomic,64,64,100,2.2528e-05
+1_4 reduction multi stage,64,64,100,1.536e-05
+1_1 basic,64,64,100,1.3312e-05
+1_3 shared memory and atomic,64,64,100,2.3552001e-05
+1_4 reduction multi stage,64,64,100,1.4336e-05
+1_1 basic,64,256,100,1.4336e-05
+1_3 shared memory and atomic,64,256,100,2.3552001e-05
+1_4 reduction multi stage,64,256,100,1.4336e-05
+1_1 basic,64,256,100,1.3312e-05
+1_3 shared memory and atomic,64,256,100,2.6624e-05
+1_4 reduction multi stage,64,256,100,1.4336e-05
+1_1 basic,64,256,100,1.3312e-05
+1_3 shared memory and atomic,64,256,100,2.4576001e-05
+1_4 reduction multi stage,64,256,100,1.4336e-05
+1_1 basic,64,256,100,1.3312e-05
+1_3 shared memory and atomic,64,256,100,2.3552001e-05
+1_4 reduction multi stage,64,256,100,1.536e-05
+1_1 basic,64,256,100,1.1264e-05
+1_3 shared memory and atomic,64,256,100,2.4576001e-05
+1_4 reduction multi stage,64,256,100,1.6384e-05
+1_1 basic,64,256,100,1.3312e-05
+1_3 shared memory and atomic,64,256,100,2.2528e-05
+1_4 reduction multi stage,64,256,100,1.4336e-05
+1_1 basic,64,256,100,1.3312e-05
+1_3 shared memory and atomic,64,256,100,2.3552001e-05
+1_4 reduction multi stage,64,256,100,1.3312e-05
+1_1 basic,64,256,100,1.2288e-05
+1_3 shared memory and atomic,64,256,100,2.2528e-05
+1_4 reduction multi stage,64,256,100,1.3312e-05
+1_1 basic,64,256,100,1.3312e-05
+1_3 shared memory and atomic,64,256,100,2.2528e-05
+1_4 reduction multi stage,64,256,100,1.4336e-05
+1_1 basic,64,256,100,1.1264e-05
+1_3 shared memory and atomic,64,256,100,3.4816001e-05
+1_4 reduction multi stage,64,256,100,1.536e-05
+1_1 basic,64,1024,100,1.3312e-05
+1_3 shared memory and atomic,64,1024,100,2.3552001e-05
+1_4 reduction multi stage,64,1024,100,1.7408e-05
+1_1 basic,64,1024,100,1.6384e-05
+1_3 shared memory and atomic,64,1024,100,2.2528e-05
+1_4 reduction multi stage,64,1024,100,1.4336e-05
+1_1 basic,64,1024,100,1.3312e-05
+1_3 shared memory and atomic,64,1024,100,2.2528e-05
+1_4 reduction multi stage,64,1024,100,1.4336e-05
+1_1 basic,64,1024,100,3.4816001e-05
+1_3 shared memory and atomic,64,1024,100,2.2528e-05
+1_4 reduction multi stage,64,1024,100,1.4336e-05
+1_1 basic,64,1024,100,1.2288e-05
+1_3 shared memory and atomic,64,1024,100,2.3552001e-05
+1_4 reduction multi stage,64,1024,100,1.3312e-05
+1_1 basic,64,1024,100,1.2288e-05
+1_3 shared memory and atomic,64,1024,100,2.2528e-05
+1_4 reduction multi stage,64,1024,100,1.3312e-05
+1_1 basic,64,1024,100,1.3312e-05
+1_3 shared memory and atomic,64,1024,100,2.3552001e-05
+1_4 reduction multi stage,64,1024,100,1.3312e-05
+1_1 basic,64,1024,100,1.4336e-05
+1_3 shared memory and atomic,64,1024,100,2.1504e-05
+1_4 reduction multi stage,64,1024,100,1.4336e-05
+1_1 basic,64,1024,100,1.2288e-05
+1_3 shared memory and atomic,64,1024,100,2.3552001e-05
+1_4 reduction multi stage,64,1024,100,1.4336e-05
+1_1 basic,64,1024,100,1.3312e-05
+1_3 shared memory and atomic,64,1024,100,2.3552001e-05
+1_4 reduction multi stage,64,1024,100,1.4336e-05
+1_1 basic,128,1,100,1.536e-05
+1_3 shared memory and atomic,128,1,100,2.0479999e-05
+1_4 reduction multi stage,128,1,100,1.4336e-05
+1_1 basic,128,1,100,1.2288e-05
+1_3 shared memory and atomic,128,1,100,2.4576001e-05
+1_4 reduction multi stage,128,1,100,1.4336e-05
+1_1 basic,128,1,100,1.2288e-05
+1_3 shared memory and atomic,128,1,100,2.3552001e-05
+1_4 reduction multi stage,128,1,100,1.3312e-05
+1_1 basic,128,1,100,1.1264e-05
+1_3 shared memory and atomic,128,1,100,2.7648e-05
+1_4 reduction multi stage,128,1,100,1.4336e-05
+1_1 basic,128,1,100,1.2288e-05
+1_3 shared memory and atomic,128,1,100,2.2528e-05
+1_4 reduction multi stage,128,1,100,1.4336e-05
+1_1 basic,128,1,100,1.3312e-05
+1_3 shared memory and atomic,128,1,100,2.2528e-05
+1_4 reduction multi stage,128,1,100,1.4336e-05
+1_1 basic,128,1,100,2.6624e-05
+1_3 shared memory and atomic,128,1,100,2.9696001e-05
+1_4 reduction multi stage,128,1,100,1.4336e-05
+1_1 basic,128,1,100,1.2288e-05
+1_3 shared memory and atomic,128,1,100,2.5599999e-05
+1_4 reduction multi stage,128,1,100,1.4336e-05
+1_1 basic,128,1,100,1.2288e-05
+1_3 shared memory and atomic,128,1,100,2.4576001e-05
+1_4 reduction multi stage,128,1,100,1.536e-05
+1_1 basic,128,1,100,1.4336e-05
+1_3 shared memory and atomic,128,1,100,2.2528e-05
+1_4 reduction multi stage,128,1,100,1.6384e-05
+1_1 basic,128,64,100,1.2288e-05
+1_3 shared memory and atomic,128,64,100,2.2528e-05
+1_4 reduction multi stage,128,64,100,2.2528e-05
+1_1 basic,128,64,100,1.1264e-05
+1_3 shared memory and atomic,128,64,100,2.2528e-05
+1_4 reduction multi stage,128,64,100,1.3312e-05
+1_1 basic,128,64,100,1.1264e-05
+1_3 shared memory and atomic,128,64,100,2.8704001e-05
+1_4 reduction multi stage,128,64,100,1.6384e-05
+1_1 basic,128,64,100,1.2288e-05
+1_3 shared memory and atomic,128,64,100,2.6624e-05
+1_4 reduction multi stage,128,64,100,1.4336e-05
+1_1 basic,128,64,100,1.3312e-05
+1_3 shared memory and atomic,128,64,100,2.2528e-05
+1_4 reduction multi stage,128,64,100,1.4336e-05
+1_1 basic,128,64,100,1.1264e-05
+1_3 shared memory and atomic,128,64,100,2.2528e-05
+1_4 reduction multi stage,128,64,100,1.3312e-05
+1_1 basic,128,64,100,1.3312e-05
+1_3 shared memory and atomic,128,64,100,2.2528e-05
+1_4 reduction multi stage,128,64,100,1.2288e-05
+1_1 basic,128,64,100,1.2288e-05
+1_3 shared memory and atomic,128,64,100,2.2528e-05
+1_4 reduction multi stage,128,64,100,1.7408e-05
+1_1 basic,128,64,100,1.2288e-05
+1_3 shared memory and atomic,128,64,100,2.6624e-05
+1_4 reduction multi stage,128,64,100,1.3312e-05
+1_1 basic,128,64,100,1.3312e-05
+1_3 shared memory and atomic,128,64,100,2.4576001e-05
+1_4 reduction multi stage,128,64,100,1.4336e-05
+1_1 basic,128,256,100,3.0719999e-05
+1_3 shared memory and atomic,128,256,100,2.2528e-05
+1_4 reduction multi stage,128,256,100,1.3312e-05
+1_1 basic,128,256,100,2.1504e-05
+1_3 shared memory and atomic,128,256,100,2.1536e-05
+1_4 reduction multi stage,128,256,100,3.4816001e-05
+1_1 basic,128,256,100,1.2288e-05
+1_3 shared memory and atomic,128,256,100,2.2528e-05
+1_4 reduction multi stage,128,256,100,1.4336e-05
+1_1 basic,128,256,100,1.2288e-05
+1_3 shared memory and atomic,128,256,100,2.2528e-05
+1_4 reduction multi stage,128,256,100,1.4336e-05
+1_1 basic,128,256,100,1.2288e-05
+1_3 shared memory and atomic,128,256,100,2.3552001e-05
+1_4 reduction multi stage,128,256,100,1.4336e-05
+1_1 basic,128,256,100,1.1264e-05
+1_3 shared memory and atomic,128,256,100,2.1504e-05
+1_4 reduction multi stage,128,256,100,1.4336e-05
+1_1 basic,128,256,100,1.1264e-05
+1_3 shared memory and atomic,128,256,100,2.1504e-05
+1_4 reduction multi stage,128,256,100,1.3312e-05
+1_1 basic,128,256,100,1.3312e-05
+1_3 shared memory and atomic,128,256,100,2.3552001e-05
+1_4 reduction multi stage,128,256,100,1.3312e-05
+1_1 basic,128,256,100,1.2288e-05
+1_3 shared memory and atomic,128,256,100,2.2528e-05
+1_4 reduction multi stage,128,256,100,1.4336e-05
+1_1 basic,128,256,100,1.3312e-05
+1_3 shared memory and atomic,128,256,100,2.3552001e-05
+1_4 reduction multi stage,128,256,100,1.536e-05
+1_1 basic,128,1024,100,1.3312e-05
+1_3 shared memory and atomic,128,1024,100,2.1504e-05
+1_4 reduction multi stage,128,1024,100,1.7408e-05
+1_1 basic,128,1024,100,1.2288e-05
+1_3 shared memory and atomic,128,1024,100,2.2528e-05
+1_4 reduction multi stage,128,1024,100,1.3312e-05
+1_1 basic,128,1024,100,1.2288e-05
+1_3 shared memory and atomic,128,1024,100,2.1504e-05
+1_4 reduction multi stage,128,1024,100,1.4336e-05
+1_1 basic,128,1024,100,1.1264e-05
+1_3 shared memory and atomic,128,1024,100,2.2528e-05
+1_4 reduction multi stage,128,1024,100,1.2288e-05
+1_1 basic,128,1024,100,1.2288e-05
+1_3 shared memory and atomic,128,1024,100,2.3552001e-05
+1_4 reduction multi stage,128,1024,100,1.6384e-05
+1_1 basic,128,1024,100,1.2288e-05
+1_3 shared memory and atomic,128,1024,100,2.3552001e-05
+1_4 reduction multi stage,128,1024,100,1.4336e-05
+1_1 basic,128,1024,100,1.3312e-05
+1_3 shared memory and atomic,128,1024,100,2.3552001e-05
+1_4 reduction multi stage,128,1024,100,1.4336e-05
+1_1 basic,128,1024,100,1.6384e-05
+1_3 shared memory and atomic,128,1024,100,2.3552001e-05
+1_4 reduction multi stage,128,1024,100,1.2288e-05
+1_1 basic,128,1024,100,1.2288e-05
+1_3 shared memory and atomic,128,1024,100,2.2528e-05
+1_4 reduction multi stage,128,1024,100,1.4336e-05
+1_1 basic,128,1024,100,2.7648e-05
+1_3 shared memory and atomic,128,1024,100,2.2528e-05
+1_4 reduction multi stage,128,1024,100,1.4336e-05
+1_1 basic,256,1,100,1.1264e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,2.3552001e-05
+1_1 basic,256,1,100,1.2288e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,1.4336e-05
+1_1 basic,256,1,100,1.4336e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,1.3312e-05
+1_1 basic,256,1,100,1.1264e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,1.4336e-05
+1_1 basic,256,1,100,3.7888002e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,2.5599999e-05
+1_1 basic,256,1,100,1.1264e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,1.3312e-05
+1_1 basic,256,1,100,1.2288e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,1.3312e-05
+1_1 basic,256,1,100,1.536e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,1.4336e-05
+1_1 basic,256,1,100,2.0479999e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,1.3312e-05
+1_1 basic,256,1,100,1.1264e-05
+1_3 shared memory and atomic,256,1,100,2.2528e-05
+1_4 reduction multi stage,256,1,100,1.4336e-05
+1_1 basic,256,64,100,1.1264e-05
+1_3 shared memory and atomic,256,64,100,2.2528e-05
+1_4 reduction multi stage,256,64,100,1.4336e-05
+1_1 basic,256,64,100,1.2288e-05
+1_3 shared memory and atomic,256,64,100,2.2528e-05
+1_4 reduction multi stage,256,64,100,1.4336e-05
+1_1 basic,256,64,100,1.3312e-05
+1_3 shared memory and atomic,256,64,100,2.1504e-05
+1_4 reduction multi stage,256,64,100,1.4336e-05
+1_1 basic,256,64,100,1.1264e-05
+1_3 shared memory and atomic,256,64,100,2.6624e-05
+1_4 reduction multi stage,256,64,100,1.4336e-05
+1_1 basic,256,64,100,1.2288e-05
+1_3 shared memory and atomic,256,64,100,2.2528e-05
+1_4 reduction multi stage,256,64,100,1.6384e-05
+1_1 basic,256,64,100,1.1264e-05
+1_3 shared memory and atomic,256,64,100,2.2528e-05
+1_4 reduction multi stage,256,64,100,1.7408e-05
+1_1 basic,256,64,100,1.7376e-05
+1_3 shared memory and atomic,256,64,100,2.2528e-05
+1_4 reduction multi stage,256,64,100,1.3312e-05
+1_1 basic,256,64,100,1.3312e-05
+1_3 shared memory and atomic,256,64,100,2.2528e-05
+1_4 reduction multi stage,256,64,100,1.3312e-05
+1_1 basic,256,64,100,1.6384e-05
+1_3 shared memory and atomic,256,64,100,2.6624e-05
+1_4 reduction multi stage,256,64,100,1.8432001e-05
+1_1 basic,256,64,100,1.1264e-05
+1_3 shared memory and atomic,256,64,100,2.2496e-05
+1_4 reduction multi stage,256,64,100,1.3312e-05
+1_1 basic,256,256,100,1.1264e-05
+1_3 shared memory and atomic,256,256,100,2.6624e-05
+1_4 reduction multi stage,256,256,100,1.3312e-05
+1_1 basic,256,256,100,1.1264e-05
+1_3 shared memory and atomic,256,256,100,2.2528e-05
+1_4 reduction multi stage,256,256,100,1.3312e-05
+1_1 basic,256,256,100,1.536e-05
+1_3 shared memory and atomic,256,256,100,2.3552001e-05
+1_4 reduction multi stage,256,256,100,1.4336e-05
+1_1 basic,256,256,100,1.3312e-05
+1_3 shared memory and atomic,256,256,100,2.4576001e-05
+1_4 reduction multi stage,256,256,100,1.4336e-05
+1_1 basic,256,256,100,1.2288e-05
+1_3 shared memory and atomic,256,256,100,2.2528e-05
+1_4 reduction multi stage,256,256,100,1.536e-05
+1_1 basic,256,256,100,1.2288e-05
+1_3 shared memory and atomic,256,256,100,2.5599999e-05
+1_4 reduction multi stage,256,256,100,1.3312e-05
+1_1 basic,256,256,100,1.1264e-05
+1_3 shared memory and atomic,256,256,100,2.1504e-05
+1_4 reduction multi stage,256,256,100,1.232e-05
+1_1 basic,256,256,100,1.328e-05
+1_3 shared memory and atomic,256,256,100,2.2528e-05
+1_4 reduction multi stage,256,256,100,1.3312e-05
+1_1 basic,256,256,100,1.536e-05
+1_3 shared memory and atomic,256,256,100,2.2528e-05
+1_4 reduction multi stage,256,256,100,1.2288e-05
+1_1 basic,256,256,100,1.2288e-05
+1_3 shared memory and atomic,256,256,100,3.3792e-05
+1_4 reduction multi stage,256,256,100,1.4336e-05
+1_1 basic,256,1024,100,1.2288e-05
+1_3 shared memory and atomic,256,1024,100,2.4576001e-05
+1_4 reduction multi stage,256,1024,100,1.4336e-05
+1_1 basic,256,1024,100,1.2288e-05
+1_3 shared memory and atomic,256,1024,100,2.2528e-05
+1_4 reduction multi stage,256,1024,100,1.4336e-05
+1_1 basic,256,1024,100,1.2288e-05
+1_3 shared memory and atomic,256,1024,100,2.2528e-05
+1_4 reduction multi stage,256,1024,100,1.4336e-05
+1_1 basic,256,1024,100,1.2288e-05
+1_3 shared memory and atomic,256,1024,100,2.4576001e-05
+1_4 reduction multi stage,256,1024,100,1.4336e-05
+1_1 basic,256,1024,100,1.1264e-05
+1_3 shared memory and atomic,256,1024,100,2.2528e-05
+1_4 reduction multi stage,256,1024,100,1.4336e-05
+1_1 basic,256,1024,100,1.1264e-05
+1_3 shared memory and atomic,256,1024,100,2.3552001e-05
+1_4 reduction multi stage,256,1024,100,1.4336e-05
+1_1 basic,256,1024,100,1.6384e-05
+1_3 shared memory and atomic,256,1024,100,2.2528e-05
+1_4 reduction multi stage,256,1024,100,1.536e-05
+1_1 basic,256,1024,100,1.4336e-05
+1_3 shared memory and atomic,256,1024,100,2.2528e-05
+1_4 reduction multi stage,256,1024,100,2.8672e-05
+1_1 basic,256,1024,100,1.2288e-05
+1_3 shared memory and atomic,256,1024,100,2.2528e-05
+1_4 reduction multi stage,256,1024,100,1.3312e-05
+1_1 basic,256,1024,100,1.2256e-05
+1_3 shared memory and atomic,256,1024,100,2.2528e-05
+1_4 reduction multi stage,256,1024,100,1.2288e-05
+1_1 basic,1,1,10000,0.000201728
+1_3 shared memory and atomic,1,1,10000,0.000234496
+1_4 reduction multi stage,1,1,10000,0.00025190401
+1_1 basic,1,1,10000,0.00020479999
+1_3 shared memory and atomic,1,1,10000,0.000234496
+1_4 reduction multi stage,1,1,10000,0.00024575999
+1_1 basic,1,1,10000,0.000201728
+1_3 shared memory and atomic,1,1,10000,0.000234496
+1_4 reduction multi stage,1,1,10000,0.000248832
+1_1 basic,1,1,10000,0.000201728
+1_3 shared memory and atomic,1,1,10000,0.000234496
+1_4 reduction multi stage,1,1,10000,0.000248832
+1_1 basic,1,1,10000,0.00020070399
+1_3 shared memory and atomic,1,1,10000,0.00024575999
+1_4 reduction multi stage,1,1,10000,0.00024780799
+1_1 basic,1,1,10000,0.00020275199
+1_3 shared memory and atomic,1,1,10000,0.00023756801
+1_4 reduction multi stage,1,1,10000,0.000248832
+1_1 basic,1,1,10000,0.00020070399
+1_3 shared memory and atomic,1,1,10000,0.000234496
+1_4 reduction multi stage,1,1,10000,0.00024780799
+1_1 basic,1,1,10000,0.00020070399
+1_3 shared memory and atomic,1,1,10000,0.000234496
+1_4 reduction multi stage,1,1,10000,0.00024780799
+1_1 basic,1,1,10000,0.00019968
+1_3 shared memory and atomic,1,1,10000,0.000234496
+1_4 reduction multi stage,1,1,10000,0.000246784
+1_1 basic,1,1,10000,0.000201728
+1_3 shared memory and atomic,1,1,10000,0.000238592
+1_4 reduction multi stage,1,1,10000,0.000248832
+1_1 basic,1,64,10000,0.00013823999
+1_3 shared memory and atomic,1,64,10000,0.000140288
+1_4 reduction multi stage,1,64,10000,0.00015769599
+1_1 basic,1,64,10000,0.00013823999
+1_3 shared memory and atomic,1,64,10000,0.000142336
+1_4 reduction multi stage,1,64,10000,0.000156672
+1_1 basic,1,64,10000,0.00013619199
+1_3 shared memory and atomic,1,64,10000,0.000142336
+1_4 reduction multi stage,1,64,10000,0.000156672
+1_1 basic,1,64,10000,0.000141312
+1_3 shared memory and atomic,1,64,10000,0.000140288
+1_4 reduction multi stage,1,64,10000,0.000156672
+1_1 basic,1,64,10000,0.00013823999
+1_3 shared memory and atomic,1,64,10000,0.000141312
+1_4 reduction multi stage,1,64,10000,0.000156672
+1_1 basic,1,64,10000,0.000137216
+1_3 shared memory and atomic,1,64,10000,0.000141312
+1_4 reduction multi stage,1,64,10000,0.00015564799
+1_1 basic,1,64,10000,0.000137216
+1_3 shared memory and atomic,1,64,10000,0.000141312
+1_4 reduction multi stage,1,64,10000,0.00015769599
+1_1 basic,1,64,10000,0.000137216
+1_3 shared memory and atomic,1,64,10000,0.000142336
+1_4 reduction multi stage,1,64,10000,0.000154624
+1_1 basic,1,64,10000,0.000137216
+1_3 shared memory and atomic,1,64,10000,0.000140288
+1_4 reduction multi stage,1,64,10000,0.000169984
+1_1 basic,1,64,10000,0.000135168
+1_3 shared memory and atomic,1,64,10000,0.000141312
+1_4 reduction multi stage,1,64,10000,0.00015564799
+1_1 basic,1,256,10000,0.000185312
+1_3 shared memory and atomic,1,256,10000,0.000206848
+1_4 reduction multi stage,1,256,10000,0.00020070399
+1_1 basic,1,256,10000,0.00018432
+1_3 shared memory and atomic,1,256,10000,0.00020992
+1_4 reduction multi stage,1,256,10000,0.00019968
+1_1 basic,1,256,10000,0.000186368
+1_3 shared memory and atomic,1,256,10000,0.000208928
+1_4 reduction multi stage,1,256,10000,0.00020275199
+1_1 basic,1,256,10000,0.00018432
+1_3 shared memory and atomic,1,256,10000,0.000206848
+1_4 reduction multi stage,1,256,10000,0.00020070399
+1_1 basic,1,256,10000,0.000186368
+1_3 shared memory and atomic,1,256,10000,0.000206848
+1_4 reduction multi stage,1,256,10000,0.00020070399
+1_1 basic,1,256,10000,0.000185344
+1_3 shared memory and atomic,1,256,10000,0.000206848
+1_4 reduction multi stage,1,256,10000,0.00019968
+1_1 basic,1,256,10000,0.00018432
+1_3 shared memory and atomic,1,256,10000,0.000207872
+1_4 reduction multi stage,1,256,10000,0.00020070399
+1_1 basic,1,256,10000,0.000185344
+1_3 shared memory and atomic,1,256,10000,0.000207872
+1_4 reduction multi stage,1,256,10000,0.00019968
+1_1 basic,1,256,10000,0.000186368
+1_3 shared memory and atomic,1,256,10000,0.000206848
+1_4 reduction multi stage,1,256,10000,0.000201728
+1_1 basic,1,256,10000,0.000187392
+1_3 shared memory and atomic,1,256,10000,0.000208896
+1_4 reduction multi stage,1,256,10000,0.00019865599
+1_1 basic,1,1024,10000,0.00067584002
+1_3 shared memory and atomic,1,1024,10000,0.00077721602
+1_4 reduction multi stage,1,1024,10000,0.00072396803
+1_1 basic,1,1024,10000,0.00066355199
+1_3 shared memory and atomic,1,1024,10000,0.00077414399
+1_4 reduction multi stage,1,1024,10000,0.00072192001
+1_1 basic,1,1024,10000,0.00065843201
+1_3 shared memory and atomic,1,1024,10000,0.00077721602
+1_4 reduction multi stage,1,1024,10000,0.00072499198
+1_1 basic,1,1024,10000,0.00066355199
+1_3 shared memory and atomic,1,1024,10000,0.00077721602
+1_4 reduction multi stage,1,1024,10000,0.00071884799
+1_1 basic,1,1024,10000,0.00066150397
+1_3 shared memory and atomic,1,1024,10000,0.00077414399
+1_4 reduction multi stage,1,1024,10000,0.000719872
+1_1 basic,1,1024,10000,0.00066355199
+1_3 shared memory and atomic,1,1024,10000,0.00078028798
+1_4 reduction multi stage,1,1024,10000,0.00072192001
+1_1 basic,1,1024,10000,0.00066457599
+1_3 shared memory and atomic,1,1024,10000,0.000775168
+1_4 reduction multi stage,1,1024,10000,0.000719872
+1_1 basic,1,1024,10000,0.00065945601
+1_3 shared memory and atomic,1,1024,10000,0.00077004802
+1_4 reduction multi stage,1,1024,10000,0.00071679997
+1_1 basic,1,1024,10000,0.00066355199
+1_3 shared memory and atomic,1,1024,10000,0.00077619201
+1_4 reduction multi stage,1,1024,10000,0.000728064
+1_1 basic,1,1024,10000,0.00066457599
+1_3 shared memory and atomic,1,1024,10000,0.00077414399
+1_4 reduction multi stage,1,1024,10000,0.00072396803
+1_1 basic,32,1,10000,4.4032e-05
+1_3 shared memory and atomic,32,1,10000,4.7104001e-05
+1_4 reduction multi stage,32,1,10000,2.0479999e-05
+1_1 basic,32,1,10000,4.3008e-05
+1_3 shared memory and atomic,32,1,10000,4.8128001e-05
+1_4 reduction multi stage,32,1,10000,2.0479999e-05
+1_1 basic,32,1,10000,5.7344001e-05
+1_3 shared memory and atomic,32,1,10000,4.7104001e-05
+1_4 reduction multi stage,32,1,10000,2.352e-05
+1_1 basic,32,1,10000,4.5056e-05
+1_3 shared memory and atomic,32,1,10000,4.7104001e-05
+1_4 reduction multi stage,32,1,10000,2.1504e-05
+1_1 basic,32,1,10000,4.9152002e-05
+1_3 shared memory and atomic,32,1,10000,4.6080001e-05
+1_4 reduction multi stage,32,1,10000,2.1504e-05
+1_1 basic,32,1,10000,4.4032e-05
+1_3 shared memory and atomic,32,1,10000,4.7104001e-05
+1_4 reduction multi stage,32,1,10000,2.1504e-05
+1_1 basic,32,1,10000,4.4032e-05
+1_3 shared memory and atomic,32,1,10000,4.6080001e-05
+1_4 reduction multi stage,32,1,10000,2.2528e-05
+1_1 basic,32,1,10000,4.4032e-05
+1_3 shared memory and atomic,32,1,10000,4.5056e-05
+1_4 reduction multi stage,32,1,10000,2.1504e-05
+1_1 basic,32,1,10000,4.4032e-05
+1_3 shared memory and atomic,32,1,10000,4.9152002e-05
+1_4 reduction multi stage,32,1,10000,2.1504e-05
+1_1 basic,32,1,10000,4.3008e-05
+1_3 shared memory and atomic,32,1,10000,4.7104001e-05
+1_4 reduction multi stage,32,1,10000,2.0479999e-05
+1_1 basic,32,64,10000,5.3247999e-05
+1_3 shared memory and atomic,32,64,10000,0.000344064
+1_4 reduction multi stage,32,64,10000,6.0416002e-05
+1_1 basic,32,64,10000,5.3247999e-05
+1_3 shared memory and atomic,32,64,10000,0.000344064
+1_4 reduction multi stage,32,64,10000,6.9632001e-05
+1_1 basic,32,64,10000,5.1199999e-05
+1_3 shared memory and atomic,32,64,10000,0.00034508801
+1_4 reduction multi stage,32,64,10000,5.632e-05
+1_1 basic,32,64,10000,5.3247999e-05
+1_3 shared memory and atomic,32,64,10000,0.000344064
+1_4 reduction multi stage,32,64,10000,5.7344001e-05
+1_1 basic,32,64,10000,5.1199999e-05
+1_3 shared memory and atomic,32,64,10000,0.00034611201
+1_4 reduction multi stage,32,64,10000,5.7344001e-05
+1_1 basic,32,64,10000,5.3247999e-05
+1_3 shared memory and atomic,32,64,10000,0.00034508801
+1_4 reduction multi stage,32,64,10000,5.632e-05
+1_1 basic,32,64,10000,5.2223999e-05
+1_3 shared memory and atomic,32,64,10000,0.00034611201
+1_4 reduction multi stage,32,64,10000,5.7344001e-05
+1_1 basic,32,64,10000,6.5536e-05
+1_3 shared memory and atomic,32,64,10000,0.00034713599
+1_4 reduction multi stage,32,64,10000,5.7344001e-05
+1_1 basic,32,64,10000,5.1199999e-05
+1_3 shared memory and atomic,32,64,10000,0.000344064
+1_4 reduction multi stage,32,64,10000,5.7344001e-05
+1_1 basic,32,64,10000,5.2223999e-05
+1_3 shared memory and atomic,32,64,10000,0.00034508801
+1_4 reduction multi stage,32,64,10000,5.8368001e-05
+1_1 basic,32,256,10000,0.00011776
+1_3 shared memory and atomic,32,256,10000,0.00084172797
+1_4 reduction multi stage,32,256,10000,0.000123872
+1_1 basic,32,256,10000,0.00011264
+1_3 shared memory and atomic,32,256,10000,0.000837632
+1_4 reduction multi stage,32,256,10000,0.000123904
+1_1 basic,32,256,10000,0.000116736
+1_3 shared memory and atomic,32,256,10000,0.00084377599
+1_4 reduction multi stage,32,256,10000,0.000121856
+1_1 basic,32,256,10000,0.000111616
+1_3 shared memory and atomic,32,256,10000,0.00083865601
+1_4 reduction multi stage,32,256,10000,0.00012288
+1_1 basic,32,256,10000,0.00011264
+1_3 shared memory and atomic,32,256,10000,0.00084070402
+1_4 reduction multi stage,32,256,10000,0.00012288
+1_1 basic,32,256,10000,0.00011264
+1_3 shared memory and atomic,32,256,10000,0.00083968002
+1_4 reduction multi stage,32,256,10000,0.00012288
+1_1 basic,32,256,10000,0.000111616
+1_3 shared memory and atomic,32,256,10000,0.00084070402
+1_4 reduction multi stage,32,256,10000,0.000123904
+1_1 basic,32,256,10000,0.000113664
+1_3 shared memory and atomic,32,256,10000,0.00083865601
+1_4 reduction multi stage,32,256,10000,0.000123904
+1_1 basic,32,256,10000,0.000113664
+1_3 shared memory and atomic,32,256,10000,0.00083865601
+1_4 reduction multi stage,32,256,10000,0.00012288
+1_1 basic,32,256,10000,0.000111616
+1_3 shared memory and atomic,32,256,10000,0.00083660799
+1_4 reduction multi stage,32,256,10000,0.00012288
+1_1 basic,32,1024,10000,0.000212992
+1_3 shared memory and atomic,32,1024,10000,0.001664
+1_4 reduction multi stage,32,1024,10000,0.000232448
+1_1 basic,32,1024,10000,0.00021401601
+1_3 shared memory and atomic,32,1024,10000,0.001666048
+1_4 reduction multi stage,32,1024,10000,0.000232448
+1_1 basic,32,1024,10000,0.000212992
+1_3 shared memory and atomic,32,1024,10000,0.001666048
+1_4 reduction multi stage,32,1024,10000,0.000232448
+1_1 basic,32,1024,10000,0.00021401601
+1_3 shared memory and atomic,32,1024,10000,0.001672192
+1_4 reduction multi stage,32,1024,10000,0.000244736
+1_1 basic,32,1024,10000,0.000217088
+1_3 shared memory and atomic,32,1024,10000,0.001690624
+1_4 reduction multi stage,32,1024,10000,0.000233472
+1_1 basic,32,1024,10000,0.000212992
+1_3 shared memory and atomic,32,1024,10000,0.001664
+1_4 reduction multi stage,32,1024,10000,0.000231424
+1_1 basic,32,1024,10000,0.00021401601
+1_3 shared memory and atomic,32,1024,10000,0.00165888
+1_4 reduction multi stage,32,1024,10000,0.000236544
+1_1 basic,32,1024,10000,0.000212992
+1_3 shared memory and atomic,32,1024,10000,0.001662976
+1_4 reduction multi stage,32,1024,10000,0.000231424
+1_1 basic,32,1024,10000,0.000211968
+1_3 shared memory and atomic,32,1024,10000,0.001664
+1_4 reduction multi stage,32,1024,10000,0.00023961601
+1_1 basic,32,1024,10000,0.00021606401
+1_3 shared memory and atomic,32,1024,10000,0.001662976
+1_4 reduction multi stage,32,1024,10000,0.00023756801
+1_1 basic,64,1,10000,4.4032e-05
+1_3 shared memory and atomic,64,1,10000,5.8368001e-05
+1_4 reduction multi stage,64,1,10000,1.8432001e-05
+1_1 basic,64,1,10000,4.5056e-05
+1_3 shared memory and atomic,64,1,10000,5.7344001e-05
+1_4 reduction multi stage,64,1,10000,2.2528e-05
+1_1 basic,64,1,10000,4.4032e-05
+1_3 shared memory and atomic,64,1,10000,5.9392001e-05
+1_4 reduction multi stage,64,1,10000,1.9455999e-05
+1_1 basic,64,1,10000,4.3008e-05
+1_3 shared memory and atomic,64,1,10000,5.9392001e-05
+1_4 reduction multi stage,64,1,10000,2.0479999e-05
+1_1 basic,64,1,10000,5.7344001e-05
+1_3 shared memory and atomic,64,1,10000,6.1439998e-05
+1_4 reduction multi stage,64,1,10000,1.9455999e-05
+1_1 basic,64,1,10000,4.4032e-05
+1_3 shared memory and atomic,64,1,10000,5.9392001e-05
+1_4 reduction multi stage,64,1,10000,2.2528e-05
+1_1 basic,64,1,10000,4.4032e-05
+1_3 shared memory and atomic,64,1,10000,5.7344001e-05
+1_4 reduction multi stage,64,1,10000,4.5056e-05
+1_1 basic,64,1,10000,4.6080001e-05
+1_3 shared memory and atomic,64,1,10000,5.9392001e-05
+1_4 reduction multi stage,64,1,10000,1.8432001e-05
+1_1 basic,64,1,10000,4.6080001e-05
+1_3 shared memory and atomic,64,1,10000,5.8368001e-05
+1_4 reduction multi stage,64,1,10000,2.0479999e-05
+1_1 basic,64,1,10000,4.3008e-05
+1_3 shared memory and atomic,64,1,10000,5.9392001e-05
+1_4 reduction multi stage,64,1,10000,2.0479999e-05
+1_1 basic,64,64,10000,4.7104001e-05
+1_3 shared memory and atomic,64,64,10000,0.00034816
+1_4 reduction multi stage,64,64,10000,5.1199999e-05
+1_1 basic,64,64,10000,5.0175998e-05
+1_3 shared memory and atomic,64,64,10000,0.00034713599
+1_4 reduction multi stage,64,64,10000,5.2223999e-05
+1_1 basic,64,64,10000,4.7104001e-05
+1_3 shared memory and atomic,64,64,10000,0.000352256
+1_4 reduction multi stage,64,64,10000,5.0175998e-05
+1_1 basic,64,64,10000,4.7104001e-05
+1_3 shared memory and atomic,64,64,10000,0.00035020801
+1_4 reduction multi stage,64,64,10000,6.656e-05
+1_1 basic,64,64,10000,4.5056e-05
+1_3 shared memory and atomic,64,64,10000,0.00034816
+1_4 reduction multi stage,64,64,10000,5.1199999e-05
+1_1 basic,64,64,10000,4.5056e-05
+1_3 shared memory and atomic,64,64,10000,0.000360448
+1_4 reduction multi stage,64,64,10000,5.1199999e-05
+1_1 basic,64,64,10000,4.6080001e-05
+1_3 shared memory and atomic,64,64,10000,0.00034918401
+1_4 reduction multi stage,64,64,10000,5.2223999e-05
+1_1 basic,64,64,10000,4.6080001e-05
+1_3 shared memory and atomic,64,64,10000,0.000364544
+1_4 reduction multi stage,64,64,10000,4.9152002e-05
+1_1 basic,64,64,10000,4.5056e-05
+1_3 shared memory and atomic,64,64,10000,0.00034611201
+1_4 reduction multi stage,64,64,10000,5.1199999e-05
+1_1 basic,64,64,10000,5.3247999e-05
+1_3 shared memory and atomic,64,64,10000,0.00035123199
+1_4 reduction multi stage,64,64,10000,5.1199999e-05
+1_1 basic,64,256,10000,0.000113664
+1_3 shared memory and atomic,64,256,10000,0.0010250241
+1_4 reduction multi stage,64,256,10000,0.00012288
+1_1 basic,64,256,10000,0.000116736
+1_3 shared memory and atomic,64,256,10000,0.001017856
+1_4 reduction multi stage,64,256,10000,0.000123904
+1_1 basic,64,256,10000,0.000113664
+1_3 shared memory and atomic,64,256,10000,0.00101888
+1_4 reduction multi stage,64,256,10000,0.00012288
+1_1 basic,64,256,10000,0.000114688
+1_3 shared memory and atomic,64,256,10000,0.001020928
+1_4 reduction multi stage,64,256,10000,0.000123904
+1_1 basic,64,256,10000,0.000113664
+1_3 shared memory and atomic,64,256,10000,0.001020928
+1_4 reduction multi stage,64,256,10000,0.00012288
+1_1 basic,64,256,10000,0.000116736
+1_3 shared memory and atomic,64,256,10000,0.00101888
+1_4 reduction multi stage,64,256,10000,0.000124928
+1_1 basic,64,256,10000,0.000113664
+1_3 shared memory and atomic,64,256,10000,0.001016832
+1_4 reduction multi stage,64,256,10000,0.000122912
+1_1 basic,64,256,10000,0.000115712
+1_3 shared memory and atomic,64,256,10000,0.00101888
+1_4 reduction multi stage,64,256,10000,0.000124928
+1_1 basic,64,256,10000,0.000118784
+1_3 shared memory and atomic,64,256,10000,0.001020928
+1_4 reduction multi stage,64,256,10000,0.000123904
+1_1 basic,64,256,10000,0.000113664
+1_3 shared memory and atomic,64,256,10000,0.00101888
+1_4 reduction multi stage,64,256,10000,0.000123904
+1_1 basic,64,1024,10000,0.000116736
+1_3 shared memory and atomic,64,1024,10000,0.0010188479
+1_4 reduction multi stage,64,1024,10000,0.00012595201
+1_1 basic,64,1024,10000,0.000113664
+1_3 shared memory and atomic,64,1024,10000,0.001020928
+1_4 reduction multi stage,64,1024,10000,0.00012288
+1_1 basic,64,1024,10000,0.000113664
+1_3 shared memory and atomic,64,1024,10000,0.001015808
+1_4 reduction multi stage,64,1024,10000,0.00012800001
+1_1 basic,64,1024,10000,0.000113664
+1_3 shared memory and atomic,64,1024,10000,0.001015808
+1_4 reduction multi stage,64,1024,10000,0.000123904
+1_1 basic,64,1024,10000,0.000115712
+1_3 shared memory and atomic,64,1024,10000,0.001016832
+1_4 reduction multi stage,64,1024,10000,0.000124928
+1_1 basic,64,1024,10000,0.000113664
+1_3 shared memory and atomic,64,1024,10000,0.001016832
+1_4 reduction multi stage,64,1024,10000,0.000123904
+1_1 basic,64,1024,10000,0.000113664
+1_3 shared memory and atomic,64,1024,10000,0.001017856
+1_4 reduction multi stage,64,1024,10000,0.000123904
+1_1 basic,64,1024,10000,0.000113664
+1_3 shared memory and atomic,64,1024,10000,0.001014784
+1_4 reduction multi stage,64,1024,10000,0.00012288
+1_1 basic,64,1024,10000,0.000113664
+1_3 shared memory and atomic,64,1024,10000,0.001014784
+1_4 reduction multi stage,64,1024,10000,0.00013823999
+1_1 basic,64,1024,10000,0.000113664
+1_3 shared memory and atomic,64,1024,10000,0.001017856
+1_4 reduction multi stage,64,1024,10000,0.000124928
+1_1 basic,128,1,10000,4.5056e-05
+1_3 shared memory and atomic,128,1,10000,9.9327996e-05
+1_4 reduction multi stage,128,1,10000,2.4576001e-05
+1_1 basic,128,1,10000,4.4032e-05
+1_3 shared memory and atomic,128,1,10000,9.9327996e-05
+1_4 reduction multi stage,128,1,10000,1.9455999e-05
+1_1 basic,128,1,10000,4.3008e-05
+1_3 shared memory and atomic,128,1,10000,9.9327996e-05
+1_4 reduction multi stage,128,1,10000,2.0479999e-05
+1_1 basic,128,1,10000,4.4032e-05
+1_3 shared memory and atomic,128,1,10000,9.8304003e-05
+1_4 reduction multi stage,128,1,10000,1.9455999e-05
+1_1 basic,128,1,10000,4.8128001e-05
+1_3 shared memory and atomic,128,1,10000,9.8304003e-05
+1_4 reduction multi stage,128,1,10000,1.9455999e-05
+1_1 basic,128,1,10000,4.3008e-05
+1_3 shared memory and atomic,128,1,10000,9.9327996e-05
+1_4 reduction multi stage,128,1,10000,1.9455999e-05
+1_1 basic,128,1,10000,4.5056e-05
+1_3 shared memory and atomic,128,1,10000,9.9327996e-05
+1_4 reduction multi stage,128,1,10000,3.1744e-05
+1_1 basic,128,1,10000,4.6080001e-05
+1_3 shared memory and atomic,128,1,10000,9.8304003e-05
+1_4 reduction multi stage,128,1,10000,1.8432001e-05
+1_1 basic,128,1,10000,4.5056e-05
+1_3 shared memory and atomic,128,1,10000,9.8304003e-05
+1_4 reduction multi stage,128,1,10000,1.9455999e-05
+1_1 basic,128,1,10000,4.9152002e-05
+1_3 shared memory and atomic,128,1,10000,9.9327996e-05
+1_4 reduction multi stage,128,1,10000,1.9455999e-05
+1_1 basic,128,64,10000,4.1983999e-05
+1_3 shared memory and atomic,128,64,10000,0.00049868801
+1_4 reduction multi stage,128,64,10000,5.9392001e-05
+1_1 basic,128,64,10000,3.7888002e-05
+1_3 shared memory and atomic,128,64,10000,0.00050380802
+1_4 reduction multi stage,128,64,10000,5.5296e-05
+1_1 basic,128,64,10000,3.7888002e-05
+1_3 shared memory and atomic,128,64,10000,0.00050176001
+1_4 reduction multi stage,128,64,10000,5.4272e-05
+1_1 basic,128,64,10000,3.7888002e-05
+1_3 shared memory and atomic,128,64,10000,0.00050380802
+1_4 reduction multi stage,128,64,10000,4.3008e-05
+1_1 basic,128,64,10000,4.6080001e-05
+1_3 shared memory and atomic,128,64,10000,0.00049971199
+1_4 reduction multi stage,128,64,10000,4.1983999e-05
+1_1 basic,128,64,10000,3.7888002e-05
+1_3 shared memory and atomic,128,64,10000,0.00049868801
+1_4 reduction multi stage,128,64,10000,4.1983999e-05
+1_1 basic,128,64,10000,3.7888002e-05
+1_3 shared memory and atomic,128,64,10000,0.00050278401
+1_4 reduction multi stage,128,64,10000,4.0959999e-05
+1_1 basic,128,64,10000,3.7888002e-05
+1_3 shared memory and atomic,128,64,10000,0.000500736
+1_4 reduction multi stage,128,64,10000,4.1983999e-05
+1_1 basic,128,64,10000,3.6864001e-05
+1_3 shared memory and atomic,128,64,10000,0.00050483203
+1_4 reduction multi stage,128,64,10000,4.0959999e-05
+1_1 basic,128,64,10000,3.8911998e-05
+1_3 shared memory and atomic,128,64,10000,0.000500736
+1_4 reduction multi stage,128,64,10000,4.1951999e-05
+1_1 basic,128,256,10000,6.4511999e-05
+1_3 shared memory and atomic,128,256,10000,0.001001472
+1_4 reduction multi stage,128,256,10000,7.2704002e-05
+1_1 basic,128,256,10000,6.3487999e-05
+1_3 shared memory and atomic,128,256,10000,0.00098816001
+1_4 reduction multi stage,128,256,10000,6.8608001e-05
+1_1 basic,128,256,10000,7.4752003e-05
+1_3 shared memory and atomic,128,256,10000,0.00099737602
+1_4 reduction multi stage,128,256,10000,6.8608001e-05
+1_1 basic,128,256,10000,6.5536e-05
+1_3 shared memory and atomic,128,256,10000,0.00099123198
+1_4 reduction multi stage,128,256,10000,6.9632001e-05
+1_1 basic,128,256,10000,7.6800004e-05
+1_3 shared memory and atomic,128,256,10000,0.001004544
+1_4 reduction multi stage,128,256,10000,6.9632001e-05
+1_1 basic,128,256,10000,6.4511999e-05
+1_3 shared memory and atomic,128,256,10000,0.00099532801
+1_4 reduction multi stage,128,256,10000,6.8608001e-05
+1_1 basic,128,256,10000,6.3487999e-05
+1_3 shared memory and atomic,128,256,10000,0.000994304
+1_4 reduction multi stage,128,256,10000,7.0656002e-05
+1_1 basic,128,256,10000,6.1439998e-05
+1_3 shared memory and atomic,128,256,10000,0.00098918402
+1_4 reduction multi stage,128,256,10000,7.5776003e-05
+1_1 basic,128,256,10000,6.3487999e-05
+1_3 shared memory and atomic,128,256,10000,0.00099123198
+1_4 reduction multi stage,128,256,10000,6.9632001e-05
+1_1 basic,128,256,10000,6.3487999e-05
+1_3 shared memory and atomic,128,256,10000,0.00097996801
+1_4 reduction multi stage,128,256,10000,6.9632001e-05
+1_1 basic,128,1024,10000,6.4511999e-05
+1_3 shared memory and atomic,128,1024,10000,0.00098713601
+1_4 reduction multi stage,128,1024,10000,6.9632001e-05
+1_1 basic,128,1024,10000,6.5536e-05
+1_3 shared memory and atomic,128,1024,10000,0.00099123198
+1_4 reduction multi stage,128,1024,10000,7.0656002e-05
+1_1 basic,128,1024,10000,6.3487999e-05
+1_3 shared memory and atomic,128,1024,10000,0.001011712
+1_4 reduction multi stage,128,1024,10000,6.8608001e-05
+1_1 basic,128,1024,10000,6.2463999e-05
+1_3 shared memory and atomic,128,1024,10000,0.00099020803
+1_4 reduction multi stage,128,1024,10000,6.7584001e-05
+1_1 basic,128,1024,10000,6.2463999e-05
+1_3 shared memory and atomic,128,1024,10000,0.00099635202
+1_4 reduction multi stage,128,1024,10000,6.8608001e-05
+1_1 basic,128,1024,10000,6.2463999e-05
+1_3 shared memory and atomic,128,1024,10000,0.001000448
+1_4 reduction multi stage,128,1024,10000,6.8608001e-05
+1_1 basic,128,1024,10000,6.3487999e-05
+1_3 shared memory and atomic,128,1024,10000,0.00098099202
+1_4 reduction multi stage,128,1024,10000,6.7616001e-05
+1_1 basic,128,1024,10000,6.6592e-05
+1_3 shared memory and atomic,128,1024,10000,0.00098508799
+1_4 reduction multi stage,128,1024,10000,8.1919998e-05
+1_1 basic,128,1024,10000,6.2463999e-05
+1_3 shared memory and atomic,128,1024,10000,0.00099635202
+1_4 reduction multi stage,128,1024,10000,6.7584001e-05
+1_1 basic,128,1024,10000,6.3487999e-05
+1_3 shared memory and atomic,128,1024,10000,0.00097996801
+1_4 reduction multi stage,128,1024,10000,6.8608001e-05
+1_1 basic,256,1,10000,4.4032e-05
+1_3 shared memory and atomic,256,1,10000,0.000176128
+1_4 reduction multi stage,256,1,10000,1.9455999e-05
+1_1 basic,256,1,10000,4.5056e-05
+1_3 shared memory and atomic,256,1,10000,0.00017715199
+1_4 reduction multi stage,256,1,10000,1.9455999e-05
+1_1 basic,256,1,10000,4.4032e-05
+1_3 shared memory and atomic,256,1,10000,0.00017510401
+1_4 reduction multi stage,256,1,10000,1.9455999e-05
+1_1 basic,256,1,10000,4.4032e-05
+1_3 shared memory and atomic,256,1,10000,0.00017510401
+1_4 reduction multi stage,256,1,10000,2.1504e-05
+1_1 basic,256,1,10000,4.4032e-05
+1_3 shared memory and atomic,256,1,10000,0.00018329599
+1_4 reduction multi stage,256,1,10000,1.9455999e-05
+1_1 basic,256,1,10000,4.7104001e-05
+1_3 shared memory and atomic,256,1,10000,0.00017510401
+1_4 reduction multi stage,256,1,10000,1.9455999e-05
+1_1 basic,256,1,10000,4.4032e-05
+1_3 shared memory and atomic,256,1,10000,0.00017408
+1_4 reduction multi stage,256,1,10000,2.1504e-05
+1_1 basic,256,1,10000,4.3008e-05
+1_3 shared memory and atomic,256,1,10000,0.00017510401
+1_4 reduction multi stage,256,1,10000,2.0479999e-05
+1_1 basic,256,1,10000,4.4032e-05
+1_3 shared memory and atomic,256,1,10000,0.00017510401
+1_4 reduction multi stage,256,1,10000,2.0479999e-05
+1_1 basic,256,1,10000,4.4032e-05
+1_3 shared memory and atomic,256,1,10000,0.000187392
+1_4 reduction multi stage,256,1,10000,2.3552001e-05
+1_1 basic,256,64,10000,4.5056e-05
+1_3 shared memory and atomic,256,64,10000,0.00134656
+1_4 reduction multi stage,256,64,10000,5.0175998e-05
+1_1 basic,256,64,10000,4.5056e-05
+1_3 shared memory and atomic,256,64,10000,0.0011816961
+1_4 reduction multi stage,256,64,10000,5.0175998e-05
+1_1 basic,256,64,10000,4.5056e-05
+1_3 shared memory and atomic,256,64,10000,0.001476608
+1_4 reduction multi stage,256,64,10000,5.3247999e-05
+1_1 basic,256,64,10000,4.5056e-05
+1_3 shared memory and atomic,256,64,10000,0.001664
+1_4 reduction multi stage,256,64,10000,5.3247999e-05
+1_1 basic,256,64,10000,4.4032e-05
+1_3 shared memory and atomic,256,64,10000,0.001424384
+1_4 reduction multi stage,256,64,10000,5.4272e-05
+1_1 basic,256,64,10000,4.8128001e-05
+1_3 shared memory and atomic,256,64,10000,0.001455104
+1_4 reduction multi stage,256,64,10000,5.0175998e-05
+1_1 basic,256,64,10000,4.5056e-05
+1_3 shared memory and atomic,256,64,10000,0.001411072
+1_4 reduction multi stage,256,64,10000,4.9152002e-05
+1_1 basic,256,64,10000,4.5056e-05
+1_3 shared memory and atomic,256,64,10000,0.00126464
+1_4 reduction multi stage,256,64,10000,5.0175998e-05
+1_1 basic,256,64,10000,4.5056e-05
+1_3 shared memory and atomic,256,64,10000,0.00146944
+1_4 reduction multi stage,256,64,10000,5.1199999e-05
+1_1 basic,256,64,10000,4.5056e-05
+1_3 shared memory and atomic,256,64,10000,0.00121856
+1_4 reduction multi stage,256,64,10000,5.3247999e-05
+1_1 basic,256,256,10000,4.4032e-05
+1_3 shared memory and atomic,256,256,10000,0.001202176
+1_4 reduction multi stage,256,256,10000,5.0175998e-05
+1_1 basic,256,256,10000,4.5056e-05
+1_3 shared memory and atomic,256,256,10000,0.0014643199
+1_4 reduction multi stage,256,256,10000,4.9152002e-05
+1_1 basic,256,256,10000,5.8368001e-05
+1_3 shared memory and atomic,256,256,10000,0.0012922879
+1_4 reduction multi stage,256,256,10000,5.1199999e-05
+1_1 basic,256,256,10000,4.4032e-05
+1_3 shared memory and atomic,256,256,10000,0.00123392
+1_4 reduction multi stage,256,256,10000,5.1199999e-05
+1_1 basic,256,256,10000,4.4032e-05
+1_3 shared memory and atomic,256,256,10000,0.001155072
+1_4 reduction multi stage,256,256,10000,5.1199999e-05
+1_1 basic,256,256,10000,4.7104001e-05
+1_3 shared memory and atomic,256,256,10000,0.001544192
+1_4 reduction multi stage,256,256,10000,5.632e-05
+1_1 basic,256,256,10000,4.5056e-05
+1_3 shared memory and atomic,256,256,10000,0.0013844481
+1_4 reduction multi stage,256,256,10000,5.1199999e-05
+1_1 basic,256,256,10000,4.6080001e-05
+1_3 shared memory and atomic,256,256,10000,0.001482752
+1_4 reduction multi stage,256,256,10000,5.1199999e-05
+1_1 basic,256,256,10000,4.4032e-05
+1_3 shared memory and atomic,256,256,10000,0.001723392
+1_4 reduction multi stage,256,256,10000,5.1199999e-05
+1_1 basic,256,256,10000,4.8128001e-05
+1_3 shared memory and atomic,256,256,10000,0.001467392
+1_4 reduction multi stage,256,256,10000,5.1199999e-05
+1_1 basic,256,1024,10000,4.5056e-05
+1_3 shared memory and atomic,256,1024,10000,0.00155136
+1_4 reduction multi stage,256,1024,10000,5.1199999e-05
+1_1 basic,256,1024,10000,4.5056e-05
+1_3 shared memory and atomic,256,1024,10000,0.001490944
+1_4 reduction multi stage,256,1024,10000,5.1199999e-05
+1_1 basic,256,1024,10000,4.5056e-05
+1_3 shared memory and atomic,256,1024,10000,0.001437696
+1_4 reduction multi stage,256,1024,10000,5.0175998e-05
+1_1 basic,256,1024,10000,4.5056e-05
+1_3 shared memory and atomic,256,1024,10000,0.00147456
+1_4 reduction multi stage,256,1024,10000,4.9152002e-05
+1_1 basic,256,1024,10000,4.6080001e-05
+1_3 shared memory and atomic,256,1024,10000,0.00147456
+1_4 reduction multi stage,256,1024,10000,4.9152002e-05
+1_1 basic,256,1024,10000,4.5056e-05
+1_3 shared memory and atomic,256,1024,10000,0.001565696
+1_4 reduction multi stage,256,1024,10000,5.1199999e-05
+1_1 basic,256,1024,10000,4.4032e-05
+1_3 shared memory and atomic,256,1024,10000,0.001327104
+1_4 reduction multi stage,256,1024,10000,5.0175998e-05
+1_1 basic,256,1024,10000,4.8128001e-05
+1_3 shared memory and atomic,256,1024,10000,0.001219584
+1_4 reduction multi stage,256,1024,10000,5.0175998e-05
+1_1 basic,256,1024,10000,4.6080001e-05
+1_3 shared memory and atomic,256,1024,10000,0.001388544
+1_4 reduction multi stage,256,1024,10000,5.1199999e-05
+1_1 basic,256,1024,10000,4.5056e-05
+1_3 shared memory and atomic,256,1024,10000,0.001440768
+1_4 reduction multi stage,256,1024,10000,5.0175998e-05
+1_1 basic,1,1,100000,0.001885184
+1_3 shared memory and atomic,1,1,100000,0.0022384641
+1_4 reduction multi stage,1,1,100000,0.0023889921
+1_1 basic,1,1,100000,0.001895424
+1_3 shared memory and atomic,1,1,100000,0.0022272
+1_4 reduction multi stage,1,1,100000,0.0023695359
+1_1 basic,1,1,100000,0.0018862081
+1_3 shared memory and atomic,1,1,100000,0.0022374401
+1_4 reduction multi stage,1,1,100000,0.002376704
+1_1 basic,1,1,100000,0.001891328
+1_3 shared memory and atomic,1,1,100000,0.0022312961
+1_4 reduction multi stage,1,1,100000,0.0023654399
+1_1 basic,1,1,100000,0.001882144
+1_3 shared memory and atomic,1,1,100000,0.0022353599
+1_4 reduction multi stage,1,1,100000,0.002374656
+1_1 basic,1,1,100000,0.0018872319
+1_3 shared memory and atomic,1,1,100000,0.0022333441
+1_4 reduction multi stage,1,1,100000,0.00237568
+1_1 basic,1,1,100000,0.0018944
+1_3 shared memory and atomic,1,1,100000,0.0022333441
+1_4 reduction multi stage,1,1,100000,0.0023726079
+1_1 basic,1,1,100000,0.001898496
+1_3 shared memory and atomic,1,1,100000,0.002229248
+1_4 reduction multi stage,1,1,100000,0.0023685119
+1_1 basic,1,1,100000,0.0018872319
+1_3 shared memory and atomic,1,1,100000,0.0022333441
+1_4 reduction multi stage,1,1,100000,0.0023306241
+1_1 basic,1,1,100000,0.001895424
+1_3 shared memory and atomic,1,1,100000,0.002229248
+1_4 reduction multi stage,1,1,100000,0.0023695359
+1_1 basic,1,64,100000,0.001265664
+1_3 shared memory and atomic,1,64,100000,0.001301504
+1_4 reduction multi stage,1,64,100000,0.001467392
+1_1 basic,1,64,100000,0.001263616
+1_3 shared memory and atomic,1,64,100000,0.001318912
+1_4 reduction multi stage,1,64,100000,0.001451008
+1_1 basic,1,64,100000,0.0012616
+1_3 shared memory and atomic,1,64,100000,0.001296384
+1_4 reduction multi stage,1,64,100000,0.001440768
+1_1 basic,1,64,100000,0.001278976
+1_3 shared memory and atomic,1,64,100000,0.001302528
+1_4 reduction multi stage,1,64,100000,0.001439744
+1_1 basic,1,64,100000,0.0012595201
+1_3 shared memory and atomic,1,64,100000,0.001319936
+1_4 reduction multi stage,1,64,100000,0.001451008
+1_1 basic,1,64,100000,0.001251328
+1_3 shared memory and atomic,1,64,100000,0.001301504
+1_4 reduction multi stage,1,64,100000,0.00144384
+1_1 basic,1,64,100000,0.00126464
+1_3 shared memory and atomic,1,64,100000,0.001299456
+1_4 reduction multi stage,1,64,100000,0.0014643199
+1_1 basic,1,64,100000,0.0012759041
+1_3 shared memory and atomic,1,64,100000,0.00131072
+1_4 reduction multi stage,1,64,100000,0.00144384
+1_1 basic,1,64,100000,0.00126976
+1_3 shared memory and atomic,1,64,100000,0.001304576
+1_4 reduction multi stage,1,64,100000,0.001437696
+1_1 basic,1,64,100000,0.001255424
+1_3 shared memory and atomic,1,64,100000,0.001355776
+1_4 reduction multi stage,1,64,100000,0.00144384
+1_1 basic,1,256,100000,0.001585152
+1_3 shared memory and atomic,1,256,100000,0.0016384
+1_4 reduction multi stage,1,256,100000,0.0018247679
+1_1 basic,1,256,100000,0.001593344
+1_3 shared memory and atomic,1,256,100000,0.00163328
+1_4 reduction multi stage,1,256,100000,0.001831936
+1_1 basic,1,256,100000,0.001594368
+1_3 shared memory and atomic,1,256,100000,0.001632256
+1_4 reduction multi stage,1,256,100000,0.001828864
+1_1 basic,1,256,100000,0.0015882241
+1_3 shared memory and atomic,1,256,100000,0.001644544
+1_4 reduction multi stage,1,256,100000,0.0018237441
+1_1 basic,1,256,100000,0.0015882241
+1_3 shared memory and atomic,1,256,100000,0.001645568
+1_4 reduction multi stage,1,256,100000,0.001829888
+1_1 basic,1,256,100000,0.001587232
+1_3 shared memory and atomic,1,256,100000,0.001639424
+1_4 reduction multi stage,1,256,100000,0.001826816
+1_1 basic,1,256,100000,0.001584128
+1_3 shared memory and atomic,1,256,100000,0.001631232
+1_4 reduction multi stage,1,256,100000,0.001828864
+1_1 basic,1,256,100000,0.00158512
+1_3 shared memory and atomic,1,256,100000,0.001637344
+1_4 reduction multi stage,1,256,100000,0.001818624
+1_1 basic,1,256,100000,0.001583104
+1_3 shared memory and atomic,1,256,100000,0.00164352
+1_4 reduction multi stage,1,256,100000,0.0018237441
+1_1 basic,1,256,100000,0.0015902719
+1_3 shared memory and atomic,1,256,100000,0.001642496
+1_4 reduction multi stage,1,256,100000,0.00183296
+1_1 basic,1,1024,100000,0.001399808
+1_3 shared memory and atomic,1,1024,100000,0.001445888
+1_4 reduction multi stage,1,1024,100000,0.001613824
+1_1 basic,1,1024,100000,0.001396736
+1_3 shared memory and atomic,1,1024,100000,0.0014479361
+1_4 reduction multi stage,1,1024,100000,0.001611776
+1_1 basic,1,1024,100000,0.001412096
+1_3 shared memory and atomic,1,1024,100000,0.001444864
+1_4 reduction multi stage,1,1024,100000,0.001613824
+1_1 basic,1,1024,100000,0.00139776
+1_3 shared memory and atomic,1,1024,100000,0.00145408
+1_4 reduction multi stage,1,1024,100000,0.001609728
+1_1 basic,1,1024,100000,0.001399808
+1_3 shared memory and atomic,1,1024,100000,0.00144384
+1_4 reduction multi stage,1,1024,100000,0.00162816
+1_1 basic,1,1024,100000,0.00139776
+1_3 shared memory and atomic,1,1024,100000,0.001449984
+1_4 reduction multi stage,1,1024,100000,0.001613824
+1_1 basic,1,1024,100000,0.00139776
+1_3 shared memory and atomic,1,1024,100000,0.00144384
+1_4 reduction multi stage,1,1024,100000,0.001614848
+1_1 basic,1,1024,100000,0.001399808
+1_3 shared memory and atomic,1,1024,100000,0.001442816
+1_4 reduction multi stage,1,1024,100000,0.001614848
+1_1 basic,1,1024,100000,0.0014008321
+1_3 shared memory and atomic,1,1024,100000,0.0014489599
+1_4 reduction multi stage,1,1024,100000,0.0016128
+1_1 basic,1,1024,100000,0.001396736
+1_3 shared memory and atomic,1,1024,100000,0.001441792
+1_4 reduction multi stage,1,1024,100000,0.0016128
+1_1 basic,32,1,100000,0.00030310401
+1_3 shared memory and atomic,32,1,100000,0.00028876799
+1_4 reduction multi stage,32,1,100000,9.6256003e-05
+1_1 basic,32,1,100000,0.00030310401
+1_3 shared memory and atomic,32,1,100000,0.00028364801
+1_4 reduction multi stage,32,1,100000,9.6256003e-05
+1_1 basic,32,1,100000,0.000301056
+1_3 shared memory and atomic,32,1,100000,0.00028364801
+1_4 reduction multi stage,32,1,100000,9.9327996e-05
+1_1 basic,32,1,100000,0.00030310401
+1_3 shared memory and atomic,32,1,100000,0.00028262401
+1_4 reduction multi stage,32,1,100000,9.5232002e-05
+1_1 basic,32,1,100000,0.000305152
+1_3 shared memory and atomic,32,1,100000,0.00028876799
+1_4 reduction multi stage,32,1,100000,9.9327996e-05
+1_1 basic,32,1,100000,0.00030310401
+1_3 shared memory and atomic,32,1,100000,0.0002816
+1_4 reduction multi stage,32,1,100000,9.6256003e-05
+1_1 basic,32,1,100000,0.00030310401
+1_3 shared memory and atomic,32,1,100000,0.00028364801
+1_4 reduction multi stage,32,1,100000,9.6256003e-05
+1_1 basic,32,1,100000,0.00030208001
+1_3 shared memory and atomic,32,1,100000,0.00028774399
+1_4 reduction multi stage,32,1,100000,9.8304003e-05
+1_1 basic,32,1,100000,0.00030208001
+1_3 shared memory and atomic,32,1,100000,0.00028467199
+1_4 reduction multi stage,32,1,100000,9.5232002e-05
+1_1 basic,32,1,100000,0.00031744
+1_3 shared memory and atomic,32,1,100000,0.00028467199
+1_4 reduction multi stage,32,1,100000,9.8304003e-05
+1_1 basic,32,64,100000,7.0656002e-05
+1_3 shared memory and atomic,32,64,100000,0.00045568001
+1_4 reduction multi stage,32,64,100000,7.2704002e-05
+1_1 basic,32,64,100000,6.5536e-05
+1_3 shared memory and atomic,32,64,100000,0.00045670399
+1_4 reduction multi stage,32,64,100000,7.3728003e-05
+1_1 basic,32,64,100000,6.9632001e-05
+1_3 shared memory and atomic,32,64,100000,0.00045872
+1_4 reduction multi stage,32,64,100000,7.2704002e-05
+1_1 basic,32,64,100000,6.656e-05
+1_3 shared memory and atomic,32,64,100000,0.00045670399
+1_4 reduction multi stage,32,64,100000,7.3728003e-05
+1_1 basic,32,64,100000,6.5536e-05
+1_3 shared memory and atomic,32,64,100000,0.000461824
+1_4 reduction multi stage,32,64,100000,7.3728003e-05
+1_1 basic,32,64,100000,6.5536e-05
+1_3 shared memory and atomic,32,64,100000,0.000457728
+1_4 reduction multi stage,32,64,100000,7.1680002e-05
+1_1 basic,32,64,100000,7.0624001e-05
+1_3 shared memory and atomic,32,64,100000,0.00045670399
+1_4 reduction multi stage,32,64,100000,7.2704002e-05
+1_1 basic,32,64,100000,6.7584001e-05
+1_3 shared memory and atomic,32,64,100000,0.000457728
+1_4 reduction multi stage,32,64,100000,8.3967999e-05
+1_1 basic,32,64,100000,6.7584001e-05
+1_3 shared memory and atomic,32,64,100000,0.00045670399
+1_4 reduction multi stage,32,64,100000,7.2704002e-05
+1_1 basic,32,64,100000,6.5568e-05
+1_3 shared memory and atomic,32,64,100000,0.00045670399
+1_4 reduction multi stage,32,64,100000,9.2160001e-05
+1_1 basic,32,256,100000,0.000169984
+1_3 shared memory and atomic,32,256,100000,0.001308672
+1_4 reduction multi stage,32,256,100000,0.00018432
+1_1 basic,32,256,100000,0.00017408
+1_3 shared memory and atomic,32,256,100000,0.0013076479
+1_4 reduction multi stage,32,256,100000,0.00019660801
+1_1 basic,32,256,100000,0.000167936
+1_3 shared memory and atomic,32,256,100000,0.001318912
+1_4 reduction multi stage,32,256,100000,0.000185344
+1_1 basic,32,256,100000,0.000167936
+1_3 shared memory and atomic,32,256,100000,0.0013076479
+1_4 reduction multi stage,32,256,100000,0.00018432
+1_1 basic,32,256,100000,0.00016896001
+1_3 shared memory and atomic,32,256,100000,0.001316864
+1_4 reduction multi stage,32,256,100000,0.00018432
+1_1 basic,32,256,100000,0.00016896001
+1_3 shared memory and atomic,32,256,100000,0.001309696
+1_4 reduction multi stage,32,256,100000,0.00018329599
+1_1 basic,32,256,100000,0.000167936
+1_3 shared memory and atomic,32,256,100000,0.001312768
+1_4 reduction multi stage,32,256,100000,0.00018432
+1_1 basic,32,256,100000,0.00017100801
+1_3 shared memory and atomic,32,256,100000,0.0013056
+1_4 reduction multi stage,32,256,100000,0.000187392
+1_1 basic,32,256,100000,0.00018329599
+1_3 shared memory and atomic,32,256,100000,0.001311744
+1_4 reduction multi stage,32,256,100000,0.000185344
+1_1 basic,32,256,100000,0.00016896001
+1_3 shared memory and atomic,32,256,100000,0.00131072
+1_4 reduction multi stage,32,256,100000,0.00018329599
+1_1 basic,32,1024,100000,0.00054479998
+1_3 shared memory and atomic,32,1024,100000,0.00416256
+1_4 reduction multi stage,32,1024,100000,0.000565216
+1_1 basic,32,1024,100000,0.00051712
+1_3 shared memory and atomic,32,1024,100000,0.0041697278
+1_4 reduction multi stage,32,1024,100000,0.00056627202
+1_1 basic,32,1024,100000,0.00052121598
+1_3 shared memory and atomic,32,1024,100000,0.004158464
+1_4 reduction multi stage,32,1024,100000,0.0005632
+1_1 basic,32,1024,100000,0.00051916802
+1_3 shared memory and atomic,32,1024,100000,0.0041512961
+1_4 reduction multi stage,32,1024,100000,0.000564224
+1_1 basic,32,1024,100000,0.00051712
+1_3 shared memory and atomic,32,1024,100000,0.0041676798
+1_4 reduction multi stage,32,1024,100000,0.000564224
+1_1 basic,32,1024,100000,0.000516096
+1_3 shared memory and atomic,32,1024,100000,0.0041676798
+1_4 reduction multi stage,32,1024,100000,0.0005632
+1_1 basic,32,1024,100000,0.00051814401
+1_3 shared memory and atomic,32,1024,100000,0.0041564159
+1_4 reduction multi stage,32,1024,100000,0.0005632
+1_1 basic,32,1024,100000,0.00052019203
+1_3 shared memory and atomic,32,1024,100000,0.0041492481
+1_4 reduction multi stage,32,1024,100000,0.0005632
+1_1 basic,32,1024,100000,0.00051814401
+1_3 shared memory and atomic,32,1024,100000,0.0041533442
+1_4 reduction multi stage,32,1024,100000,0.00056524801
+1_1 basic,32,1024,100000,0.00051814401
+1_3 shared memory and atomic,32,1024,100000,0.0041523199
+1_4 reduction multi stage,32,1024,100000,0.00056524801
+1_1 basic,64,1,100000,0.00030720001
+1_3 shared memory and atomic,64,1,100000,0.00044748801
+1_4 reduction multi stage,64,1,100000,9.2160001e-05
+1_1 basic,64,1,100000,0.00030617601
+1_3 shared memory and atomic,64,1,100000,0.00044851199
+1_4 reduction multi stage,64,1,100000,9.1136001e-05
+1_1 basic,64,1,100000,0.00030617601
+1_3 shared memory and atomic,64,1,100000,0.00045260799
+1_4 reduction multi stage,64,1,100000,9.3184002e-05
+1_1 basic,64,1,100000,0.00030720001
+1_3 shared memory and atomic,64,1,100000,0.00045056
+1_4 reduction multi stage,64,1,100000,9.2160001e-05
+1_1 basic,64,1,100000,0.00030617601
+1_3 shared memory and atomic,64,1,100000,0.00044851199
+1_4 reduction multi stage,64,1,100000,9.2160001e-05
+1_1 basic,64,1,100000,0.00030720001
+1_3 shared memory and atomic,64,1,100000,0.000457728
+1_4 reduction multi stage,64,1,100000,9.2160001e-05
+1_1 basic,64,1,100000,0.00030720001
+1_3 shared memory and atomic,64,1,100000,0.00045260799
+1_4 reduction multi stage,64,1,100000,9.6256003e-05
+1_1 basic,64,1,100000,0.00030617601
+1_3 shared memory and atomic,64,1,100000,0.00045260799
+1_4 reduction multi stage,64,1,100000,9.2160001e-05
+1_1 basic,64,1,100000,0.00031027201
+1_3 shared memory and atomic,64,1,100000,0.00045260799
+1_4 reduction multi stage,64,1,100000,9.3184002e-05
+1_1 basic,64,1,100000,0.00030822399
+1_3 shared memory and atomic,64,1,100000,0.00045158401
+1_4 reduction multi stage,64,1,100000,9.2160001e-05
+1_1 basic,64,64,100000,6.4511999e-05
+1_3 shared memory and atomic,64,64,100000,0.000489472
+1_4 reduction multi stage,64,64,100000,7.1680002e-05
+1_1 basic,64,64,100000,6.656e-05
+1_3 shared memory and atomic,64,64,100000,0.00049664
+1_4 reduction multi stage,64,64,100000,7.2704002e-05
+1_1 basic,64,64,100000,6.5536e-05
+1_3 shared memory and atomic,64,64,100000,0.000489472
+1_4 reduction multi stage,64,64,100000,7.1680002e-05
+1_1 basic,64,64,100000,6.5536e-05
+1_3 shared memory and atomic,64,64,100000,0.00049049601
+1_4 reduction multi stage,64,64,100000,7.4752003e-05
+1_1 basic,64,64,100000,6.5536e-05
+1_3 shared memory and atomic,64,64,100000,0.000489472
+1_4 reduction multi stage,64,64,100000,7.1680002e-05
+1_1 basic,64,64,100000,7.0656002e-05
+1_3 shared memory and atomic,64,64,100000,0.00048332801
+1_4 reduction multi stage,64,64,100000,7.2704002e-05
+1_1 basic,64,64,100000,6.4511999e-05
+1_3 shared memory and atomic,64,64,100000,0.00047820801
+1_4 reduction multi stage,64,64,100000,7.3728003e-05
+1_1 basic,64,64,100000,6.656e-05
+1_3 shared memory and atomic,64,64,100000,0.00049151999
+1_4 reduction multi stage,64,64,100000,7.2704002e-05
+1_1 basic,64,64,100000,6.5536e-05
+1_3 shared memory and atomic,64,64,100000,0.000500736
+1_4 reduction multi stage,64,64,100000,8.4991999e-05
+1_1 basic,64,64,100000,6.4511999e-05
+1_3 shared memory and atomic,64,64,100000,0.00050483203
+1_4 reduction multi stage,64,64,100000,7.1680002e-05
+1_1 basic,64,256,100000,0.00015769599
+1_3 shared memory and atomic,64,256,100000,0.001456128
+1_4 reduction multi stage,64,256,100000,0.00017305601
+1_1 basic,64,256,100000,0.00015872
+1_3 shared memory and atomic,64,256,100000,0.001461248
+1_4 reduction multi stage,64,256,100000,0.000172032
+1_1 basic,64,256,100000,0.00015872
+1_3 shared memory and atomic,64,256,100000,0.001460224
+1_4 reduction multi stage,64,256,100000,0.00017100801
+1_1 basic,64,256,100000,0.00015769599
+1_3 shared memory and atomic,64,256,100000,0.001460224
+1_4 reduction multi stage,64,256,100000,0.000172032
+1_1 basic,64,256,100000,0.00015769599
+1_3 shared memory and atomic,64,256,100000,0.001461248
+1_4 reduction multi stage,64,256,100000,0.00017305601
+1_1 basic,64,256,100000,0.00015769599
+1_3 shared memory and atomic,64,256,100000,0.001458176
+1_4 reduction multi stage,64,256,100000,0.000178176
+1_1 basic,64,256,100000,0.00015872
+1_3 shared memory and atomic,64,256,100000,0.0014632961
+1_4 reduction multi stage,64,256,100000,0.00017411201
+1_1 basic,64,256,100000,0.00015769599
+1_3 shared memory and atomic,64,256,100000,0.0014632961
+1_4 reduction multi stage,64,256,100000,0.000176128
+1_1 basic,64,256,100000,0.000160768
+1_3 shared memory and atomic,64,256,100000,0.001457152
+1_4 reduction multi stage,64,256,100000,0.000172032
+1_1 basic,64,256,100000,0.000156672
+1_3 shared memory and atomic,64,256,100000,0.001457152
+1_4 reduction multi stage,64,256,100000,0.000176128
+1_1 basic,64,1024,100000,0.00052326399
+1_3 shared memory and atomic,64,1024,100000,0.0050544639
+1_4 reduction multi stage,64,1024,100000,0.00056934398
+1_1 basic,64,1024,100000,0.00052121598
+1_3 shared memory and atomic,64,1024,100000,0.0050544639
+1_4 reduction multi stage,64,1024,100000,0.00056627202
+1_1 basic,64,1024,100000,0.00052223998
+1_3 shared memory and atomic,64,1024,100000,0.0050513921
+1_4 reduction multi stage,64,1024,100000,0.00056831998
+1_1 basic,64,1024,100000,0.00051916802
+1_3 shared memory and atomic,64,1024,100000,0.0050565119
+1_4 reduction multi stage,64,1024,100000,0.000564224
+1_1 basic,64,1024,100000,0.00052121598
+1_3 shared memory and atomic,64,1024,100000,0.0050524158
+1_4 reduction multi stage,64,1024,100000,0.00056831998
+1_1 basic,64,1024,100000,0.00052121598
+1_3 shared memory and atomic,64,1024,100000,0.0050524158
+1_4 reduction multi stage,64,1024,100000,0.00056934398
+1_1 basic,64,1024,100000,0.00052121598
+1_3 shared memory and atomic,64,1024,100000,0.0050565119
+1_4 reduction multi stage,64,1024,100000,0.00056729603
+1_1 basic,64,1024,100000,0.00052019203
+1_3 shared memory and atomic,64,1024,100000,0.005045248
+1_4 reduction multi stage,64,1024,100000,0.00056934398
+1_1 basic,64,1024,100000,0.00052223998
+1_3 shared memory and atomic,64,1024,100000,0.0050524158
+1_4 reduction multi stage,64,1024,100000,0.00056729603
+1_1 basic,64,1024,100000,0.00052121598
+1_3 shared memory and atomic,64,1024,100000,0.0050503678
+1_4 reduction multi stage,64,1024,100000,0.00058777601
+1_1 basic,128,1,100000,0.00030617601
+1_3 shared memory and atomic,128,1,100000,0.00085606402
+1_4 reduction multi stage,128,1,100000,0.000110592
+1_1 basic,128,1,100000,0.000309248
+1_3 shared memory and atomic,128,1,100000,0.00088883197
+1_4 reduction multi stage,128,1,100000,9.6256003e-05
+1_1 basic,128,1,100000,0.00030720001
+1_3 shared memory and atomic,128,1,100000,0.00089395201
+1_4 reduction multi stage,128,1,100000,9.5232002e-05
+1_1 basic,128,1,100000,0.00030720001
+1_3 shared memory and atomic,128,1,100000,0.00082534403
+1_4 reduction multi stage,128,1,100000,9.6256003e-05
+1_1 basic,128,1,100000,0.00030617601
+1_3 shared memory and atomic,128,1,100000,0.00087961602
+1_4 reduction multi stage,128,1,100000,9.6256003e-05
+1_1 basic,128,1,100000,0.00030822399
+1_3 shared memory and atomic,128,1,100000,0.00085811198
+1_4 reduction multi stage,128,1,100000,9.4208002e-05
+1_1 basic,128,1,100000,0.00031539199
+1_3 shared memory and atomic,128,1,100000,0.00088780802
+1_4 reduction multi stage,128,1,100000,0.000109568
+1_1 basic,128,1,100000,0.00030617601
+1_3 shared memory and atomic,128,1,100000,0.00087347198
+1_4 reduction multi stage,128,1,100000,9.6256003e-05
+1_1 basic,128,1,100000,0.00030822399
+1_3 shared memory and atomic,128,1,100000,0.00087142402
+1_4 reduction multi stage,128,1,100000,9.8304003e-05
+1_1 basic,128,1,100000,0.000309248
+1_3 shared memory and atomic,128,1,100000,0.00083148801
+1_4 reduction multi stage,128,1,100000,9.4208002e-05
+1_1 basic,128,64,100000,6.4511999e-05
+1_3 shared memory and atomic,128,64,100000,0.00089804798
+1_4 reduction multi stage,128,64,100000,7.3728003e-05
+1_1 basic,128,64,100000,6.2463999e-05
+1_3 shared memory and atomic,128,64,100000,0.00092876798
+1_4 reduction multi stage,128,64,100000,6.9632001e-05
+1_1 basic,128,64,100000,6.7584001e-05
+1_3 shared memory and atomic,128,64,100000,0.00093388802
+1_4 reduction multi stage,128,64,100000,7.1680002e-05
+1_1 basic,128,64,100000,6.2463999e-05
+1_3 shared memory and atomic,128,64,100000,0.00090931201
+1_4 reduction multi stage,128,64,100000,7.3728003e-05
+1_1 basic,128,64,100000,7.0656002e-05
+1_3 shared memory and atomic,128,64,100000,0.00091443199
+1_4 reduction multi stage,128,64,100000,6.9632001e-05
+1_1 basic,128,64,100000,6.3487999e-05
+1_3 shared memory and atomic,128,64,100000,0.00091136003
+1_4 reduction multi stage,128,64,100000,6.9632001e-05
+1_1 basic,128,64,100000,6.4511999e-05
+1_3 shared memory and atomic,128,64,100000,0.00089497602
+1_4 reduction multi stage,128,64,100000,7.0656002e-05
+1_1 basic,128,64,100000,6.4511999e-05
+1_3 shared memory and atomic,128,64,100000,0.00090521598
+1_4 reduction multi stage,128,64,100000,7.0656002e-05
+1_1 basic,128,64,100000,6.2463999e-05
+1_3 shared memory and atomic,128,64,100000,0.000908288
+1_4 reduction multi stage,128,64,100000,7.0656002e-05
+1_1 basic,128,64,100000,6.3487999e-05
+1_3 shared memory and atomic,128,64,100000,0.00093593597
+1_4 reduction multi stage,128,64,100000,7.1680002e-05
+1_1 basic,128,256,100000,0.000140288
+1_3 shared memory and atomic,128,256,100000,0.0024504321
+1_4 reduction multi stage,128,256,100000,0.00015360001
+1_1 basic,128,256,100000,0.000139264
+1_3 shared memory and atomic,128,256,100000,0.0024647679
+1_4 reduction multi stage,128,256,100000,0.000152576
+1_1 basic,128,256,100000,0.00015769599
+1_3 shared memory and atomic,128,256,100000,0.0024576001
+1_4 reduction multi stage,128,256,100000,0.000152576
+1_1 basic,128,256,100000,0.000139264
+1_3 shared memory and atomic,128,256,100000,0.00247296
+1_4 reduction multi stage,128,256,100000,0.00015360001
+1_1 basic,128,256,100000,0.000139264
+1_3 shared memory and atomic,128,256,100000,0.0024627199
+1_4 reduction multi stage,128,256,100000,0.00015155201
+1_1 basic,128,256,100000,0.000139296
+1_3 shared memory and atomic,128,256,100000,0.0024494081
+1_4 reduction multi stage,128,256,100000,0.000154624
+1_1 basic,128,256,100000,0.00013823999
+1_3 shared memory and atomic,128,256,100000,0.0024504321
+1_4 reduction multi stage,128,256,100000,0.00015155201
+1_1 basic,128,256,100000,0.000141312
+1_3 shared memory and atomic,128,256,100000,0.0024565761
+1_4 reduction multi stage,128,256,100000,0.00015360001
+1_1 basic,128,256,100000,0.000140288
+1_3 shared memory and atomic,128,256,100000,0.0024606719
+1_4 reduction multi stage,128,256,100000,0.000152576
+1_1 basic,128,256,100000,0.000139264
+1_3 shared memory and atomic,128,256,100000,0.0024657919
+1_4 reduction multi stage,128,256,100000,0.00015360001
+1_1 basic,128,1024,100000,0.00052019203
+1_3 shared memory and atomic,128,1024,100000,0.0097239037
+1_4 reduction multi stage,128,1024,100000,0.00056934398
+1_1 basic,128,1024,100000,0.00052019203
+1_3 shared memory and atomic,128,1024,100000,0.0097351685
+1_4 reduction multi stage,128,1024,100000,0.00056729603
+1_1 basic,128,1024,100000,0.00051814401
+1_3 shared memory and atomic,128,1024,100000,0.0097402878
+1_4 reduction multi stage,128,1024,100000,0.00056729603
+1_1 basic,128,1024,100000,0.000524288
+1_3 shared memory and atomic,128,1024,100000,0.0097218561
+1_4 reduction multi stage,128,1024,100000,0.00057036799
+1_1 basic,128,1024,100000,0.00052019203
+1_3 shared memory and atomic,128,1024,100000,0.0096983042
+1_4 reduction multi stage,128,1024,100000,0.00056524801
+1_1 basic,128,1024,100000,0.00052121598
+1_3 shared memory and atomic,128,1024,100000,0.0097116156
+1_4 reduction multi stage,128,1024,100000,0.00056524801
+1_1 basic,128,1024,100000,0.00051814401
+1_3 shared memory and atomic,128,1024,100000,0.0097402878
+1_4 reduction multi stage,128,1024,100000,0.00056934398
+1_1 basic,128,1024,100000,0.00052019203
+1_3 shared memory and atomic,128,1024,100000,0.0097505283
+1_4 reduction multi stage,128,1024,100000,0.00056729603
+1_1 basic,128,1024,100000,0.00052019203
+1_3 shared memory and atomic,128,1024,100000,0.0097310724
+1_4 reduction multi stage,128,1024,100000,0.00056729603
+1_1 basic,128,1024,100000,0.00052223998
+1_3 shared memory and atomic,128,1024,100000,0.0097443838
+1_4 reduction multi stage,128,1024,100000,0.00056934398
+1_1 basic,256,1,100000,0.00030617601
+1_3 shared memory and atomic,256,1,100000,0.0016680959
+1_4 reduction multi stage,256,1,100000,9.8336004e-05
+1_1 basic,256,1,100000,0.00030617601
+1_3 shared memory and atomic,256,1,100000,0.001678336
+1_4 reduction multi stage,256,1,100000,9.7280003e-05
+1_1 basic,256,1,100000,0.00030720001
+1_3 shared memory and atomic,256,1,100000,0.0016527359
+1_4 reduction multi stage,256,1,100000,9.9327996e-05
+1_1 basic,256,1,100000,0.00030720001
+1_3 shared memory and atomic,256,1,100000,0.001598496
+1_4 reduction multi stage,256,1,100000,9.8304003e-05
+1_1 basic,256,1,100000,0.00032256001
+1_3 shared memory and atomic,256,1,100000,0.0016670721
+1_4 reduction multi stage,256,1,100000,0.000111616
+1_1 basic,256,1,100000,0.00030720001
+1_3 shared memory and atomic,256,1,100000,0.001672192
+1_4 reduction multi stage,256,1,100000,0.000100352
+1_1 basic,256,1,100000,0.00030720001
+1_3 shared memory and atomic,256,1,100000,0.001656832
+1_4 reduction multi stage,256,1,100000,9.9327996e-05
+1_1 basic,256,1,100000,0.00031436801
+1_3 shared memory and atomic,256,1,100000,0.001676288
+1_4 reduction multi stage,256,1,100000,9.7280003e-05
+1_1 basic,256,1,100000,0.000305152
+1_3 shared memory and atomic,256,1,100000,0.001655808
+1_4 reduction multi stage,256,1,100000,0.000103424
+1_1 basic,256,1,100000,0.00030617601
+1_3 shared memory and atomic,256,1,100000,0.001666048
+1_4 reduction multi stage,256,1,100000,0.000101376
+1_1 basic,256,64,100000,6.3487999e-05
+1_3 shared memory and atomic,256,64,100000,0.0025559039
+1_4 reduction multi stage,256,64,100000,6.7584001e-05
+1_1 basic,256,64,100000,6.4511999e-05
+1_3 shared memory and atomic,256,64,100000,0.0024535041
+1_4 reduction multi stage,256,64,100000,6.656e-05
+1_1 basic,256,64,100000,7.5776003e-05
+1_3 shared memory and atomic,256,64,100000,0.0024565761
+1_4 reduction multi stage,256,64,100000,6.5536e-05
+1_1 basic,256,64,100000,6.656e-05
+1_3 shared memory and atomic,256,64,100000,0.0024504321
+1_4 reduction multi stage,256,64,100000,6.7584001e-05
+1_1 basic,256,64,100000,6.2463999e-05
+1_3 shared memory and atomic,256,64,100000,0.0024842241
+1_4 reduction multi stage,256,64,100000,6.7584001e-05
+1_1 basic,256,64,100000,7.5776003e-05
+1_3 shared memory and atomic,256,64,100000,0.002518048
+1_4 reduction multi stage,256,64,100000,6.7584001e-05
+1_1 basic,256,64,100000,6.3455999e-05
+1_3 shared memory and atomic,256,64,100000,0.002563072
+1_4 reduction multi stage,256,64,100000,6.7584001e-05
+1_1 basic,256,64,100000,6.656e-05
+1_3 shared memory and atomic,256,64,100000,0.0024954879
+1_4 reduction multi stage,256,64,100000,6.9632001e-05
+1_1 basic,256,64,100000,6.3487999e-05
+1_3 shared memory and atomic,256,64,100000,0.00237568
+1_4 reduction multi stage,256,64,100000,6.9632001e-05
+1_1 basic,256,64,100000,6.3487999e-05
+1_3 shared memory and atomic,256,64,100000,0.002540544
+1_4 reduction multi stage,256,64,100000,6.8608001e-05
+1_1 basic,256,256,100000,0.00017715199
+1_3 shared memory and atomic,256,256,100000,0.007888896
+1_4 reduction multi stage,256,256,100000,0.000197632
+1_1 basic,256,256,100000,0.00017715199
+1_3 shared memory and atomic,256,256,100000,0.0074762239
+1_4 reduction multi stage,256,256,100000,0.00019968
+1_1 basic,256,256,100000,0.00017715199
+1_3 shared memory and atomic,256,256,100000,0.0071383042
+1_4 reduction multi stage,256,256,100000,0.000195584
+1_1 basic,256,256,100000,0.00017919999
+1_3 shared memory and atomic,256,256,100000,0.007704576
+1_4 reduction multi stage,256,256,100000,0.000195584
+1_1 basic,256,256,100000,0.00017715199
+1_3 shared memory and atomic,256,256,100000,0.0071127038
+1_4 reduction multi stage,256,256,100000,0.000195584
+1_1 basic,256,256,100000,0.000178176
+1_3 shared memory and atomic,256,256,100000,0.0075868158
+1_4 reduction multi stage,256,256,100000,0.00019660801
+1_1 basic,256,256,100000,0.00017408
+1_3 shared memory and atomic,256,256,100000,0.0067778559
+1_4 reduction multi stage,256,256,100000,0.00019456001
+1_1 basic,256,256,100000,0.000176128
+1_3 shared memory and atomic,256,256,100000,0.0085729284
+1_4 reduction multi stage,256,256,100000,0.00021401601
+1_1 basic,256,256,100000,0.00017715199
+1_3 shared memory and atomic,256,256,100000,0.0079923201
+1_4 reduction multi stage,256,256,100000,0.00019456001
+1_1 basic,256,256,100000,0.000178176
+1_3 shared memory and atomic,256,256,100000,0.0067297282
+1_4 reduction multi stage,256,256,100000,0.00019865599
+1_1 basic,256,1024,100000,0.000340992
+1_3 shared memory and atomic,256,1024,100000,0.014081024
+1_4 reduction multi stage,256,1024,100000,0.000375808
+1_1 basic,256,1024,100000,0.000328704
+1_3 shared memory and atomic,256,1024,100000,0.01455104
+1_4 reduction multi stage,256,1024,100000,0.000375808
+1_1 basic,256,1024,100000,0.00033894399
+1_3 shared memory and atomic,256,1024,100000,0.015430656
+1_4 reduction multi stage,256,1024,100000,0.00037689599
+1_1 basic,256,1024,100000,0.00033075199
+1_3 shared memory and atomic,256,1024,100000,0.013628416
+1_4 reduction multi stage,256,1024,100000,0.00037683201
+1_1 basic,256,1024,100000,0.000340992
+1_3 shared memory and atomic,256,1024,100000,0.016574465
+1_4 reduction multi stage,256,1024,100000,0.000375808
+1_1 basic,256,1024,100000,0.000340992
+1_3 shared memory and atomic,256,1024,100000,0.016371712
+1_4 reduction multi stage,256,1024,100000,0.00037987199
+1_1 basic,256,1024,100000,0.00032563201
+1_3 shared memory and atomic,256,1024,100000,0.014364672
+1_4 reduction multi stage,256,1024,100000,0.000375808
+1_1 basic,256,1024,100000,0.000340992
+1_3 shared memory and atomic,256,1024,100000,0.014765056
+1_4 reduction multi stage,256,1024,100000,0.000379904
+1_1 basic,256,1024,100000,0.00034611201
+1_3 shared memory and atomic,256,1024,100000,0.013471744
+1_4 reduction multi stage,256,1024,100000,0.00037683201
+1_1 basic,256,1024,100000,0.000344064
+1_3 shared memory and atomic,256,1024,100000,0.013120512
+1_4 reduction multi stage,256,1024,100000,0.00037376001

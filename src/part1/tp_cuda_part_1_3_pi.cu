@@ -16,11 +16,25 @@ History: Written by Tim Mattson, 11/1999.
 #include <cstdlib>
 #include <cstring>
 #include <sys/time.h>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+
+using namespace std;
 
 static long num_steps = 100000000;
 static long thread_per_block = 1;
 static long steps_per_thread = 64;
 double step;
+
+void write_perf_csv(int thread_per_block, int step_per_thread,int num_steps, double runtime){
+  ofstream myfile;
+  myfile.open ("stats_part1.csv", ios_base::app);
+  myfile.precision(8);
+  myfile <<"1_3 shared memory and atomic"<<"," << thread_per_block << ","<< step_per_thread <<","<< num_steps << "," << runtime << "\n";
+
+  myfile.close();
+}
 
 __global__ void compute_pi(float* pi, long num_steps){
       int i;
@@ -97,6 +111,6 @@ int main (int argc, char** argv)
 
     
     printf("\n pi with %ld steps is %lf in %lf s\n",num_steps,pi_h,elapsedTime/1000.0);
-
+    write_perf_csv(thread_per_block,steps_per_thread,num_steps, elapsedTime/1000.0);
     cudaFree(pi_d);
 }
