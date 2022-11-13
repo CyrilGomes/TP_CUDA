@@ -57,8 +57,8 @@ using namespace std;
 void checkSizes( int &N, int &M, int &S, int &nrepeat );
 void write_perf_csv(int n, int m, int repeat, double runtime);
 
-static long tpb = 1;
-static long num_blocks = 10;
+static int tpb = 1;
+static int num_blocks = 10;
 
 __device__ double multiplyVectors(double* a, double* b, int numline, int nbcol) {
   int index = numline*nbcol;

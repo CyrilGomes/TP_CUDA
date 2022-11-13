@@ -1,0 +1,5 @@
+1_3 shared memory and atomic,1,64,100000000,0.68342578
+1_4 reduction multi stage,1,64,100000000,0.79649384
+1_1 basic,1,64,100000000,0.71399011
+1_3 shared memory and atomic,1,64,100000000,0.68662372
+1_4 reduction multi stage,1,64,100000000,0.71630646
