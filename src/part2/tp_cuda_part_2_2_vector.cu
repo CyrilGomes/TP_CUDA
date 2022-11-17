@@ -71,13 +71,8 @@ __device__ double multiplyVectors(double* a, double* b, int numline, int nbcol) 
 
 }
 __global__ void mulKer(double* A, double* x,double* y, int nblines, int nbcol,  float* result){
-
-    //int blocki = threadIdx.x + blockIdx.x * blockDim.x;
-
-    int i = blockIdx.x;
-    atomicAdd(result, multiplyVectors(A,x, i, nbcol) * y[i]);
-
-
+  int i = blockIdx.x;
+  atomicAdd(result, multiplyVectors(A,x, i, nbcol) * y[i]);
 }
 
 
@@ -105,10 +100,6 @@ int main( int argc, char* argv[] )
     else if ( ( strcmp( argv[ i ], "-tpb" ) == 0 )) {
       tpb = atoi(argv[ ++i ]);
       printf( "  User TPB is %d\n",  tpb);
-    }
-    else if ( ( strcmp( argv[ i ], "-B" ) == 0 )) {
-      num_blocks = atoi( argv[ ++i ] );
-      printf( "  User Num Blocks is %d\n", num_blocks );
     }
     else if ( strcmp( argv[ i ], "-nrepeat" ) == 0 ) {
       nrepeat = atoi( argv[ ++i ] );
@@ -224,7 +215,7 @@ int main( int argc, char* argv[] )
   printf( "  N( %d ) M( %d ) nrepeat ( %d ) problem( %g MB ) time( %g s ) bandwidth( %g GB/s )\n",
           N, M, nrepeat, Gbytes * 1000, time, Gbytes * nrepeat / time );
 
-  //write_perf_csv(N, M, nrepeat, time); 
+  write_perf_csv(N, M, nrepeat, time); 
   std::free(A);
   std::free(y);
   std::free(x);
@@ -278,7 +269,7 @@ void write_perf_csv(int n, int m, int repeat, double runtime){
   ofstream myfile;
   myfile.open ("stats_part2.csv", ios_base::app);
   myfile.precision(8);
-  myfile <<n<<"," << m << ","<< repeat << "," << runtime << "\n";
+  myfile <<"2_2 1_block_1_line,"<<tpb<<","<< n<<"," << m << ","<< repeat << "," << runtime << "\n";
 
   myfile.close();
 }

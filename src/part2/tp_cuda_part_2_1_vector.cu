@@ -54,6 +54,8 @@
 #include <iomanip>
 
 using namespace std;
+static int tpb = 1;
+
 void checkSizes( int &N, int &M, int &S, int &nrepeat );
 double multiplyVectors(double* a, int i, double* b, int nbcol);
 void write_perf_csv(int n, int m, int repeat, double runtime);
@@ -81,6 +83,10 @@ int main( int argc, char* argv[] )
     }
     else if ( strcmp( argv[ i ], "-nrepeat" ) == 0 ) {
       nrepeat = atoi( argv[ ++i ] );
+    }
+    else if ( ( strcmp( argv[ i ], "-tpb" ) == 0 )) {
+      tpb = atoi(argv[ ++i ]);
+      printf( "  User TPB is %d\n",  tpb);
     }
     else if ( ( strcmp( argv[ i ], "-h" ) == 0 ) || ( strcmp( argv[ i ], "-help" ) == 0 ) ) {
       printf( "  y^T*A*x Options:\n" );
@@ -228,7 +234,7 @@ void write_perf_csv(int n, int m, int repeat, double runtime){
   ofstream myfile;
   myfile.open ("stats_part2.csv", ios_base::app);
   myfile.precision(8);
-  myfile <<n<<"," << m << ","<< repeat << "," << runtime << "\n";
+  myfile <<"2_1 sequential,"<<tpb<<","<< n<<"," << m << ","<< repeat << "," << runtime << "\n";
 
   myfile.close();
 }

@@ -115,10 +115,6 @@ int main( int argc, char* argv[] )
       tpb = atoi(argv[ ++i ]);
       printf( "  User TPB is %d\n",  tpb);
     }
-    else if ( ( strcmp( argv[ i ], "-B" ) == 0 )) {
-      num_blocks = atoi( argv[ ++i ] );
-      printf( "  User Num Blocks is %d\n", num_blocks );
-    }
     else if ( strcmp( argv[ i ], "-nrepeat" ) == 0 ) {
       nrepeat = atoi( argv[ ++i ] );
     }
@@ -180,10 +176,6 @@ int main( int argc, char* argv[] )
   cudaMemcpy(x_d, x, sizeof(double)*M, cudaMemcpyHostToDevice);
   cudaMemcpy(y_d, y, sizeof(double)*N, cudaMemcpyHostToDevice);
 
-
-
-
-	  
   for ( int repeat = 0; repeat < nrepeat; repeat++ ) {
     // For each line i
         // Multiply the i lines with the vector x 
@@ -199,7 +191,6 @@ int main( int argc, char* argv[] )
 
     cudaMemcpy(&result_h, result_d, sizeof(float), cudaMemcpyDeviceToHost);
 
-
     // Output result.
     if ( repeat == ( nrepeat - 1 ) ) {
       printf( "  Computed result for %d x %d is %lf\n", N, M, result_h );
@@ -210,8 +201,6 @@ int main( int argc, char* argv[] )
     if ( result_h != solution ) {
       printf( "  Error: result( %lf ) != solution( %lf )\n", result_h, solution );
     }
-
-    
   }
   cudaFree(result_d);
   gettimeofday( &end, NULL );
@@ -286,7 +275,7 @@ void write_perf_csv(int n, int m, int repeat, double runtime){
   ofstream myfile;
   myfile.open ("stats_part2.csv", ios_base::app);
   myfile.precision(8);
-  myfile <<n<<"," << m << ","<< repeat << "," << runtime << "\n";
+  myfile <<"2_4 shared_memory,"<<tpb<<","<< n<<"," << m << ","<< repeat << "," << runtime << "\n";
 
   myfile.close();
 }
