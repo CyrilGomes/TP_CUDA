@@ -21,6 +21,7 @@
         "unordered_map": "cpp",
         "vector": "cpp",
         "algorithm": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "fstream": "cpp"
     }
 }

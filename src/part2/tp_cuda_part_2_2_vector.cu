@@ -60,19 +60,16 @@ void write_perf_csv(int n, int m, int repeat, double runtime);
 static int tpb = 1;
 static int num_blocks = 10;
 
-__device__ double multiplyVectors(double* a, double* b, int numline, int nbcol) {
-  int index = numline*nbcol;
-  double sum = 0;
-  for (int j=0; j<nbcol;j++){
-    sum += a[index+j] * b[j];
-  }
 
-  return sum;
-
-}
 __global__ void mulKer(double* A, double* x,double* y, int nblines, int nbcol,  float* result){
   int i = blockIdx.x;
-  atomicAdd(result, multiplyVectors(A,x, i, nbcol) * y[i]);
+  int index = i*nbcol;
+  double sum = 0;
+  for (int j=0; j<nbcol;j++){
+    sum += A[index+j] * x[j];
+  }
+
+  atomicAdd(result, sum * y[i]);
 }
 
 
@@ -98,7 +95,7 @@ int main( int argc, char* argv[] )
       printf( "  User S is %d\n", S );
     }
     else if ( ( strcmp( argv[ i ], "-tpb" ) == 0 )) {
-      tpb = atoi(argv[ ++i ]);
+      //tpb = atoi(argv[ ++i ]);
       printf( "  User TPB is %d\n",  tpb);
     }
     else if ( strcmp( argv[ i ], "-nrepeat" ) == 0 ) {
