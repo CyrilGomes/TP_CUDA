@@ -47,7 +47,7 @@ __global__ void compute_pi(float* pi, long num_steps){
       int threadi = threadIdx.x + blockIdx.x * blockDim.x;
       int stride = blockDim.x * gridDim.x;
       double step = 1.0/(double) num_steps;
-
+    
       for (i=threadi;i< num_steps; i+= stride){
         x = (i-0.5)*step;
         atomicAdd(&sum, 4.0/(1.0+x*x));

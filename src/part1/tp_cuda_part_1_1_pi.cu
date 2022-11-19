@@ -50,7 +50,6 @@ __global__ void compute_pi(float* pi, long num_steps){
 
       atomicAdd(pi, sum);
 
-
 }
 
 int main (int argc, char** argv)
