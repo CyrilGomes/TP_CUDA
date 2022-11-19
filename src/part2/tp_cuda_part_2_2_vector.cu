@@ -96,7 +96,7 @@ int main( int argc, char* argv[] )
     }
     else if ( ( strcmp( argv[ i ], "-tpb" ) == 0 )) {
       //tpb = atoi(argv[ ++i ]);
-      printf( "  User TPB is %d\n",  tpb);
+      printf( "  User TPB is defined to %d\n",  tpb);
     }
     else if ( strcmp( argv[ i ], "-nrepeat" ) == 0 ) {
       nrepeat = atoi( argv[ ++i ] );
